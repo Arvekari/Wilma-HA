@@ -66,8 +66,40 @@ def _truncate(text: str, limit: int = 250) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
+FI_WEEKDAYS = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai", "Sunnuntai"]
+
+
+def _weekday_name(date_str: str | None) -> str | None:
+    if not date_str:
+        return None
+    try:
+        parsed = datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        return None
+    return FI_WEEKDAYS[parsed.weekday()]
+
+
+def _expected_next_school_date(today: datetime) -> datetime:
+    """Calendar-only guess at the next school day, ignoring holidays: Mon-Thu -> +1,
+    Fri -> next Mon (+3), Sat -> next Mon (+2), Sun -> next Mon (+1)."""
+    weekday = today.weekday()  # 0=Mon ... 6=Sun
+    if weekday == 4:
+        return today + timedelta(days=3)
+    if weekday == 5:
+        return today + timedelta(days=2)
+    if weekday == 6:
+        return today + timedelta(days=1)
+    return today + timedelta(days=1)
+
+
 class WilmaScheduleSensor(WilmaStudentSensorBase):
-    """State = the current/next lesson today as text; today/tomorrow/full in attributes."""
+    """State = the current/next lesson today as text; full school-week awareness in attributes.
+
+    "Next school day" is derived from Wilma's own schedule data (the next date
+    that actually has lessons), not a naive calendar +1 day — so Friday
+    correctly points at Monday, and a public holiday correctly makes Tuesday
+    point at Thursday instead of Wednesday.
+    """
 
     _attr_translation_key = "schedule"
     _attr_icon = "mdi:calendar-clock"
@@ -83,26 +115,42 @@ class WilmaScheduleSensor(WilmaStudentSensorBase):
     def _todays_lessons(self) -> list[dict[str, Any]]:
         return self._lessons_on(datetime.now().strftime("%Y-%m-%d"))
 
-    def _tomorrows_lessons(self) -> list[dict[str, Any]]:
-        tomorrow = datetime.now() + timedelta(days=1)
-        return self._lessons_on(tomorrow.strftime("%Y-%m-%d"))
+    def _next_school_day(self) -> str | None:
+        """The next date (after today) that Wilma's schedule actually has lessons on."""
+        today = datetime.now().strftime("%Y-%m-%d")
+        lessons = self._student_data.get("overview", {}).get("schedule", [])
+        future_dates = sorted({lesson["date"] for lesson in lessons if lesson["date"] > today})
+        return future_dates[0] if future_dates else None
 
     @property
     def native_value(self) -> Any:
         now_hm = datetime.now().strftime("%H:%M")
         todays = self._todays_lessons()
+        weekday = _weekday_name(datetime.now().strftime("%Y-%m-%d"))
         if not todays:
-            return "Ei tunteja tänään"
+            return _truncate(f"{weekday}: ei tunteja tänään")
         # Current or next lesson: first one that hasn't ended yet, else the last one.
         upcoming = [l for l in todays if l.get("end", "") >= now_hm]
         lesson = upcoming[0] if upcoming else todays[-1]
-        return _truncate(f"{lesson.get('start', '')}–{lesson.get('end', '')} {lesson.get('subject', '')}")
+        return _truncate(
+            f"{weekday} {lesson.get('start', '')}–{lesson.get('end', '')} {lesson.get('subject', '')}"
+        )
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
+        today_dt = datetime.now()
+        next_day = self._next_school_day()
+        expected_next = _expected_next_school_date(today_dt).strftime("%Y-%m-%d")
         return {
+            "weekday_today": _weekday_name(today_dt.strftime("%Y-%m-%d")),
             "lessons_today": self._todays_lessons(),
-            "lessons_tomorrow": self._tomorrows_lessons(),
+            "next_school_day": next_day,
+            "weekday_next_school_day": _weekday_name(next_day),
+            "lessons_next_school_day": self._lessons_on(next_day) if next_day else [],
+            # True when a holiday (or other closure) pushed the next school day
+            # later than a plain Mon-Fri calendar would suggest — e.g. Tuesday
+            # jumping to Thursday because Wednesday is a public holiday.
+            "next_school_day_skips_a_weekday": bool(next_day) and next_day > expected_next,
             "lessons": self._student_data.get("overview", {}).get("schedule", []),
         }
 
