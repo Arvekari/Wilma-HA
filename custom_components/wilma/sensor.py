@@ -1,7 +1,7 @@
 """Sensor entities: one set of Wilma data sensors per configured student."""
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any
 
 from homeassistant.components.sensor import SensorEntity
@@ -67,7 +67,7 @@ def _truncate(text: str, limit: int = 250) -> str:
 
 
 class WilmaScheduleSensor(WilmaStudentSensorBase):
-    """State = the current/next lesson today as text; full day in `lessons`."""
+    """State = the current/next lesson today as text; today/tomorrow/full in attributes."""
 
     _attr_translation_key = "schedule"
     _attr_icon = "mdi:calendar-clock"
@@ -75,11 +75,17 @@ class WilmaScheduleSensor(WilmaStudentSensorBase):
     def __init__(self, coordinator, entry, student_number) -> None:
         super().__init__(coordinator, entry, student_number, "schedule")
 
-    def _todays_lessons(self) -> list[dict[str, Any]]:
-        today = datetime.now().strftime("%Y-%m-%d")
+    def _lessons_on(self, date_str: str) -> list[dict[str, Any]]:
         lessons = self._student_data.get("overview", {}).get("schedule", [])
-        todays = [lesson for lesson in lessons if lesson["date"] == today]
-        return sorted(todays, key=lambda lesson: lesson.get("start", ""))
+        on_date = [lesson for lesson in lessons if lesson["date"] == date_str]
+        return sorted(on_date, key=lambda lesson: lesson.get("start", ""))
+
+    def _todays_lessons(self) -> list[dict[str, Any]]:
+        return self._lessons_on(datetime.now().strftime("%Y-%m-%d"))
+
+    def _tomorrows_lessons(self) -> list[dict[str, Any]]:
+        tomorrow = datetime.now() + timedelta(days=1)
+        return self._lessons_on(tomorrow.strftime("%Y-%m-%d"))
 
     @property
     def native_value(self) -> Any:
@@ -96,6 +102,7 @@ class WilmaScheduleSensor(WilmaStudentSensorBase):
     def extra_state_attributes(self) -> dict[str, Any]:
         return {
             "lessons_today": self._todays_lessons(),
+            "lessons_tomorrow": self._tomorrows_lessons(),
             "lessons": self._student_data.get("overview", {}).get("schedule", []),
         }
 

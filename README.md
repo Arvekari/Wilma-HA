@@ -1,5 +1,7 @@
 # Wilma for Home Assistant
 
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/arvekari)
+
 Custom Home Assistant integration for Finland's Wilma school system —
 schedules, homework, exams, grades, attendance notes (merkinnät), messages,
 and news, as entities under **Settings → Devices & Services**. Login and
@@ -15,7 +17,7 @@ Per selected student, one HA **device** with these sensors:
 
 | Entity | State (short text) | Key attributes (full content) |
 |---|---|---|
-| Schedule (today) | current/next lesson, e.g. `10:15–11:00 Matematiikka` | `lessons_today`, `lessons` (whole schedule) |
+| Schedule (today) | current/next lesson, e.g. `10:15–11:00 Matematiikka` | `lessons_today`, `lessons_tomorrow`, `lessons` (whole schedule) |
 | Homework | most recent item, e.g. `Matematiikka: s.42 teht. 1-5` | `count`, `items` |
 | Upcoming exams | next exam, e.g. `2026-02-20 Matematiikka: Koe2` | `count`, `upcoming_exams` |
 | Grades | latest grade | `recent_grades` |
@@ -58,11 +60,12 @@ Replace `sensor.matti_lukujarjestys` etc. with your actual entity IDs —
 check them under **Settings → Devices & Services → Entities**, filtered by
 the Wilma device for that student.
 
-### Schedule (today)
+### Schedule (today and tomorrow)
 
 ```yaml
 type: markdown
-content: >
+content: |
+  **Today**
   {% set lessons = state_attr('sensor.matti_lukujarjestys', 'lessons_today') or [] %}
   {% if lessons %}
   {% for lesson in lessons %}
@@ -71,13 +74,23 @@ content: >
   {% else %}
   No lessons today.
   {% endif %}
+
+  **Tomorrow**
+  {% set lessons_tmrw = state_attr('sensor.matti_lukujarjestys', 'lessons_tomorrow') or [] %}
+  {% if lessons_tmrw %}
+  {% for lesson in lessons_tmrw %}
+  - **{{ lesson.start }}–{{ lesson.end }}** {{ lesson.subject }}{% if lesson.teacher %} ({{ lesson.teacher }}){% endif %}
+  {% endfor %}
+  {% else %}
+  No lessons tomorrow.
+  {% endif %}
 ```
 
 ### Homework
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for hw in state_attr('sensor.matti_laksyt', 'items') %}
   - **{{ hw.date }}** {{ hw.subject }}: {{ hw.homework }}
   {% endfor %}
@@ -87,7 +100,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for exam in state_attr('sensor.matti_tulevat_kokeet', 'upcoming_exams') %}
   - **{{ exam.date }}** {{ exam.subject }}: {{ exam.name }}{% if exam.topic %} — {{ exam.topic }}{% endif %}
   {% endfor %}
@@ -97,7 +110,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for g in state_attr('sensor.matti_arvosanat', 'recent_grades') %}
   - **{{ g.date }}** {{ g.subject }}: {{ g.name }} — {{ g.grade }}
   {% endfor %}
@@ -107,7 +120,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for note in state_attr('sensor.matti_merkinnat', 'lesson_notes') %}
   - {% if note.start %}**{{ note.start }}–{{ note.end }}** {% endif %}{{ note.subject }}: {{ note.type_label }}{% if note.teacher %} ({{ note.teacher }}){% endif %}
   {% endfor %}
@@ -117,7 +130,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for m in state_attr('sensor.matti_viestit', 'recent_messages') %}
   - **{{ m.subject }}**{% if m.sender_name %} — {{ m.sender_name }}{% endif %}
   {% endfor %}
@@ -127,7 +140,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for n in state_attr('sensor.matti_tiedotteet', 'recent_news') %}
   - **{{ n.title }}**{% if n.author %} — {{ n.author }}{% endif %}
   {% endfor %}
@@ -137,7 +150,7 @@ content: >
 
 ```yaml
 type: markdown
-content: >
+content: |
   {% for item in state_attr('sensor.matti_toimenpiteet', 'items') %}
   - [{{ item.bucket }}] {{ item.text }}
   {% endfor %}
