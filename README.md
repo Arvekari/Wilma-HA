@@ -13,16 +13,23 @@ licensed). See [`LICENSE`](LICENSE).
 
 Per selected student, one HA **device** with these sensors:
 
-| Entity | State | Key attributes |
+| Entity | State (short text) | Key attributes (full content) |
 |---|---|---|
-| Schedule (today) | lessons today (count) | `lessons` — full schedule list |
-| Homework | item count | `items` — homework list |
-| Upcoming exams | next exam date | `upcoming_exams` |
+| Schedule (today) | current/next lesson, e.g. `10:15–11:00 Matematiikka` | `lessons_today`, `lessons` (whole schedule) |
+| Homework | most recent item, e.g. `Matematiikka: s.42 teht. 1-5` | `count`, `items` |
+| Upcoming exams | next exam, e.g. `2026-02-20 Matematiikka: Koe2` | `count`, `upcoming_exams` |
 | Grades | latest grade | `recent_grades` |
-| Attendance notes | note count | `lesson_notes` — merkinnät |
-| Messages | recent count | `recent_messages` |
-| News | recent count | `recent_news` |
+| Attendance notes | most recent note, e.g. `MA: Selvittämätön poissaolo` | `count`, `lesson_notes` — merkinnät |
+| Messages | most recent subject | `count`, `recent_messages` |
+| News | most recent title | `count`, `recent_news` |
 | Actionable summary | actionable item count | `items`, `counts` — rule-based triage (see caveat below) |
+
+**Why the state is a short summary, not the whole list:** a Home Assistant
+sensor's `state` is capped at 255 characters and is meant to be one glance-able
+value (that's also what shows on a dashboard tile by default). The full data
+— every lesson, every homework item, every message — always lives in the
+entity's **attributes**, never truncated. See **Dashboards** below for how to
+actually display that on a dashboard.
 
 **Triage caveat:** the "Actionable summary" sensor ports the *deterministic*
 part of the original wilma-triage skill (lesson-note type keywords, sender/
@@ -38,6 +45,111 @@ again from **Settings → Devices & Services → Add Integration → Wilma** for
 each separate Wilma login/school (e.g. one child in Vantaa's Wilma, another
 in Mercuria's) — each becomes its own independent config entry with its own
 login session and its own device(s).
+
+## Dashboards
+
+Every sensor's full data set is in its **attributes**, readable from any
+dashboard card via `state_attr('sensor.xxx', 'attribute_name')`. The plain
+**Entities** card only shows the short state text; to render a list, use a
+**Markdown** card (Settings → Dashboards → Edit → Add Card → Markdown, or
+paste this as YAML in an existing dashboard/view).
+
+Replace `sensor.matti_lukujarjestys` etc. with your actual entity IDs —
+check them under **Settings → Devices & Services → Entities**, filtered by
+the Wilma device for that student.
+
+### Schedule (today)
+
+```yaml
+type: markdown
+content: >
+  {% set lessons = state_attr('sensor.matti_lukujarjestys', 'lessons_today') or [] %}
+  {% if lessons %}
+  {% for lesson in lessons %}
+  - **{{ lesson.start }}–{{ lesson.end }}** {{ lesson.subject }}{% if lesson.teacher %} ({{ lesson.teacher }}){% endif %}
+  {% endfor %}
+  {% else %}
+  No lessons today.
+  {% endif %}
+```
+
+### Homework
+
+```yaml
+type: markdown
+content: >
+  {% for hw in state_attr('sensor.matti_laksyt', 'items') %}
+  - **{{ hw.date }}** {{ hw.subject }}: {{ hw.homework }}
+  {% endfor %}
+```
+
+### Upcoming exams
+
+```yaml
+type: markdown
+content: >
+  {% for exam in state_attr('sensor.matti_tulevat_kokeet', 'upcoming_exams') %}
+  - **{{ exam.date }}** {{ exam.subject }}: {{ exam.name }}{% if exam.topic %} — {{ exam.topic }}{% endif %}
+  {% endfor %}
+```
+
+### Grades
+
+```yaml
+type: markdown
+content: >
+  {% for g in state_attr('sensor.matti_arvosanat', 'recent_grades') %}
+  - **{{ g.date }}** {{ g.subject }}: {{ g.name }} — {{ g.grade }}
+  {% endfor %}
+```
+
+### Attendance notes (merkinnät)
+
+```yaml
+type: markdown
+content: >
+  {% for note in state_attr('sensor.matti_merkinnat', 'lesson_notes') %}
+  - {% if note.start %}**{{ note.start }}–{{ note.end }}** {% endif %}{{ note.subject }}: {{ note.type_label }}{% if note.teacher %} ({{ note.teacher }}){% endif %}
+  {% endfor %}
+```
+
+### Messages
+
+```yaml
+type: markdown
+content: >
+  {% for m in state_attr('sensor.matti_viestit', 'recent_messages') %}
+  - **{{ m.subject }}**{% if m.sender_name %} — {{ m.sender_name }}{% endif %}
+  {% endfor %}
+```
+
+### News
+
+```yaml
+type: markdown
+content: >
+  {% for n in state_attr('sensor.matti_tiedotteet', 'recent_news') %}
+  - **{{ n.title }}**{% if n.author %} — {{ n.author }}{% endif %}
+  {% endfor %}
+```
+
+### Actionable summary (triage)
+
+```yaml
+type: markdown
+content: >
+  {% for item in state_attr('sensor.matti_toimenpiteet', 'items') %}
+  - [{{ item.bucket }}] {{ item.text }}
+  {% endfor %}
+```
+
+### One dashboard view per student
+
+The cards above are per-sensor. To get a full one-page overview per student,
+put several Markdown cards (or the equivalent using the **auto-entities**
+HACS card, if installed, keyed on the device) into one dashboard **view**,
+one view per child — that mirrors how the sensors are already grouped (one
+HA device per student).
 
 ## Installing the package
 
