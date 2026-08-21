@@ -1,6 +1,6 @@
 # Wilma for Home Assistant
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/arvekari)
+<a href="https://www.buymeacoffee.com/arvekari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"></a>
 
 Custom Home Assistant integration for Finland's Wilma school system —
 schedules, homework, exams, grades, attendance notes (merkinnät), messages,
@@ -258,3 +258,5 @@ Wilma authentication/parsing logic originally by
 [aikarjal/wilmai](https://github.com/aikarjal/wilmai) (MIT license). This
 repository is an independent Python port for Home Assistant, unaffiliated
 with Visma/Wilma.
+
+<a href="https://www.buymeacoffee.com/arvekari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"></a>
