@@ -1,0 +1,5271 @@
+{
+"wilmat": [
+{
+"url": "https://ahlman.inschool.fi",
+"name": "Ahlmanin ammatti- ja aikuisopisto, Tampere",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://aikk.inschool.fi",
+"name": "Aitoon koulutuskeskus",
+"municipalities": [
+{
+"name_fi": "Pälkäne",
+"name_sv": "Pälkäne"
+}
+]
+},
+{
+"url": "https://akaa.inschool.fi",
+"name": "Akaan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Akaa",
+"name_sv": "Ackas"
+}
+]
+},
+{
+"url": "https://aland.inschool.fi",
+"name": "Ålands skolor",
+"municipalities": [
+{
+"name_fi": "Finström",
+"name_sv": "Finström"
+},
+{
+"name_fi": "Geta",
+"name_sv": "Geta"
+},
+{
+"name_fi": "Saltvik",
+"name_sv": "Saltvik"
+},
+{
+"name_fi": "Sund",
+"name_sv": "Sund"
+},
+{
+"name_fi": "Vårdö",
+"name_sv": "Vårdö"
+},
+{
+"name_fi": "Maarianhamina",
+"name_sv": "Mariehamn"
+},
+{
+"name_fi": "Kumlinge",
+"name_sv": "Kumlinge"
+},
+{
+"name_fi": "Brändö",
+"name_sv": "Brändö"
+},
+{
+"name_fi": "Föglö",
+"name_sv": "Föglö"
+},
+{
+"name_fi": "Kumlinge",
+"name_sv": "Kumlinge"
+},
+{
+"name_fi": "Kökar",
+"name_sv": "Kökar"
+},
+{
+"name_fi": "Eckerö",
+"name_sv": "Eckerö"
+},
+{
+"name_fi": "Hammarland",
+"name_sv": "Hammarland"
+},
+{
+"name_fi": "Jomala",
+"name_sv": "Jomala"
+},
+{
+"name_fi": "Lemland",
+"name_sv": "Lemland"
+},
+{
+"name_fi": "Lumparland",
+"name_sv": "Lumparland"
+}
+]
+},
+{
+"url": "https://alajarvi.inschool.fi",
+"name": "Alajärven sivistystoimisto",
+"formerUrl": "https://wilma.alajarvi.fi",
+"municipalities": [
+{
+"name_fi": "Alajärvi",
+"name_sv": "Alajärvi"
+}
+]
+},
+{
+"url": "https://alavieska.inschool.fi",
+"name": "Alavieskan yhtenäiskoulu (0-9)",
+"municipalities": [
+{
+"name_fi": "Alavieska",
+"name_sv": "Alavieska"
+}
+]
+},
+{
+"url": "https://alavus.inschool.fi",
+"name": "Alavuden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Alavus",
+"name_sv": "Alavus"
+}
+]
+},
+{
+"url": "https://alkio.inschool.fi",
+"name": "Alkio-opisto, Jyväskylä",
+"formerUrl": "https://wilma.alkio.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://lappia.inschool.fi",
+"name": "Ammattiopisto Lappia",
+"formerUrl": "https://wilma.lappia.fi",
+"municipalities": [
+{
+"name_fi": "Kemi",
+"name_sv": "Kemi"
+},
+{
+"name_fi": "Muonio",
+"name_sv": "Muonio"
+},
+{
+"name_fi": "Tervola",
+"name_sv": "Tervola"
+},
+{
+"name_fi": "Tornio",
+"name_sv": "Torneå"
+}
+]
+},
+{
+"url": "https://liveopisto.inschool.fi",
+"name": "Ammattiopisto Live",
+"formerUrl": "https://wilma.liveopisto.fi",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://livia.inschool.fi",
+"name": "Ammattiopisto Livia",
+"formerUrl": "https://wilma.livia.fi",
+"municipalities": [
+{
+"name_fi": "Kaarina",
+"name_sv": "S:t karins"
+}
+]
+},
+{
+"url": "https://luovi.inschool.fi",
+"name": "Ammattiopisto Luovi",
+"formerUrl": "https://wilma.luovi.fi",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+},
+{
+"name_fi": "Alavus",
+"name_sv": "Alavus"
+},
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+},
+{
+"name_fi": "Liminka",
+"name_sv": "Limingo"
+},
+{
+"name_fi": "Liperi",
+"name_sv": "Liperi"
+},
+{
+"name_fi": "Muhos",
+"name_sv": "Muhos"
+},
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://spesia.inschool.fi",
+"name": "Ammattiopisto Spesia",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://annatapio.inschool.fi",
+"name": "Anna Tapion koulu, Pälkäne",
+"formerUrl": "https://wilma.annatapio.fi",
+"municipalities": [
+{
+"name_fi": "Pälkäne",
+"name_sv": "Pälkäne"
+}
+]
+},
+{
+"url": "https://ayl.inschool.fi",
+"name": "Arkadian yhteislyseo, Nurmijärvi",
+"municipalities": [
+{
+"name_fi": "Nurmijärvi",
+"name_sv": "Nurmijärvi"
+}
+]
+},
+{
+"url": "https://asikkala.inschool.fi",
+"name": "Asikkalan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Asikkala",
+"name_sv": "Asikkala"
+}
+]
+},
+{
+"url": "https://askola.inschool.fi",
+"name": "Askolan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Askola",
+"name_sv": "Askola"
+}
+]
+},
+{
+"url": "https://aura.inschool.fi",
+"name": "Auran koulutoimisto",
+"formerUrl": "https://wilma.aura.fi",
+"municipalities": [
+{
+"name_fi": "Aura",
+"name_sv": "Aura"
+}
+]
+},
+{
+"url": "https://ask.inschool.fi",
+"name": "Aurinkorannikon Suomalainen koulu",
+"formerUrl": "https://wilma.suomalainenkoulu.net",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://axxell.inschool.fi",
+"name": "Axxell Utbildning Ab",
+"formerUrl": "https://wilma.axxell.fi",
+"municipalities": [
+{
+"name_fi": "Raasepori",
+"name_sv": "Raseborg"
+}
+]
+},
+{
+"url": "https://vora.inschool.fi",
+"name": "Bildningsavdelningen i Vörå",
+"municipalities": [
+{
+"name_fi": "Vöyri",
+"name_sv": "Vörå"
+}
+]
+},
+{
+"url": "https://raseborg.inschool.fi",
+"name": "Bildningskansli Raseborg",
+"formerUrl": "https://wilma.raseborg.fi",
+"municipalities": [
+{
+"name_fi": "Raasepori",
+"name_sv": "Raseborg"
+}
+]
+},
+{
+"url": "https://nykarleby.inschool.fi",
+"name": "Bildningskansliet i Nykarleby",
+"municipalities": [
+{
+"name_fi": "Uusikaarlepyy",
+"name_sv": "Nykarleby"
+}
+]
+},
+{
+"url": "https://bjss.inschool.fi",
+"name": "Björneborgs svenska samskola",
+"municipalities": [
+{
+"name_fi": "Pori",
+"name_sv": "Björneborg"
+}
+]
+},
+{
+"url": "https://bc.inschool.fi",
+"name": "Business College Helsinki",
+"formerUrl": "https://wilma.businesscollege.fi",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://careeria.inschool.fi",
+"name": "Careeria",
+"formerUrl": "https://wilma.careeria.fi",
+"municipalities": [
+{
+"name_fi": "Porvoo",
+"name_sv": "Borgå"
+}
+]
+},
+{
+"url": "https://eerikkila.inschool.fi",
+"name": "Eerikkilän urheiluopisto, Tammela",
+"municipalities": [
+{
+"name_fi": "Tammela",
+"name_sv": "Tammela"
+}
+]
+},
+{
+"url": "https://eira.inschool.fi",
+"name": "Eiran aikuislukio, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://hirvensalmi.inschool.fi",
+"name": "Elomaan koulu (1-9), Hirvensalmi",
+"municipalities": [
+{
+"name_fi": "Hirvensalmi",
+"name_sv": "Hirvensalmi"
+}
+]
+},
+{
+"url": "https://enonkoski.inschool.fi",
+"name": "Enonkosken koulu (0-9)",
+"municipalities": [
+{
+"name_fi": "Enonkoski",
+"name_sv": "Enonkoski"
+}
+]
+},
+{
+"url": "https://enontekio.inschool.fi",
+"name": "Enontekiön koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Enontekiö",
+"name_sv": "Enontekis"
+}
+]
+},
+{
+"url": "https://enter.inschool.fi",
+"name": "Enter SystemSolutions Oy, Turku",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://espoo.inschool.fi",
+"name": "Espoon kaupunki / Suomenkielisen opetuksen tulosyksikkö",
+"formerUrl": "https://wilma.espoo.fi",
+"municipalities": [
+{
+"name_fi": "Espoo",
+"name_sv": "Esbo"
+}
+]
+},
+{
+"url": "https://espoonsteiner.inschool.fi",
+"name": "Espoon Steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Espoo",
+"name_sv": "Esbo"
+}
+]
+},
+{
+"url": "https://ekami.inschool.fi",
+"name": "Etelä-Kymenlaakson ammattiopisto (Ekami)",
+"formerUrl": "https://wilma.ekami.fi",
+"municipalities": [
+{
+"name_fi": "Hamina",
+"name_sv": "Fredrikshamn"
+},
+{
+"name_fi": "Kotka",
+"name_sv": "Kotka"
+}
+]
+},
+{
+"url": "https://epo.inschool.fi",
+"name": "Etelä-Pohjanmaan Opisto, Ilmajoki",
+"municipalities": [
+{
+"name_fi": "Ilmajoki",
+"name_sv": "Ilmajoki"
+}
+]
+},
+{
+"url": "https://epsteiner.inschool.fi",
+"name": "Etelä-Pohjanmaan Steiner-koulu",
+"municipalities": [
+{
+"name_fi": "Seinäjoki",
+"name_sv": "Seinäjoki"
+}
+]
+},
+{
+"url": "https://esedu.inschool.fi",
+"name": "Etelä-Savon ammattiopisto",
+"municipalities": [
+{
+"name_fi": "Mikkeli",
+"name_sv": "S:t michel"
+}
+]
+},
+{
+"url": "https://eurajoki.inschool.fi",
+"name": "Eurajoen kunta",
+"municipalities": [
+{
+"name_fi": "Eurajoki",
+"name_sv": "Euraåminne"
+}
+]
+},
+{
+"url": "https://eko.inschool.fi",
+"name": "Eurajoen kristillinen opisto,",
+"municipalities": [
+{
+"name_fi": "Eurajoki",
+"name_sv": "Euraåminne"
+}
+]
+},
+{
+"url": "https://eura.inschool.fi",
+"name": "Euran sivistyspalvelut",
+"municipalities": [
+{
+"name_fi": "Eura",
+"name_sv": "Eura"
+}
+]
+},
+{
+"url": "https://evijarvi.inschool.fi",
+"name": "Evijärven koulutoimisto",
+"formerUrl": "https://wilma.evijarvi.fi:8447",
+"municipalities": [
+{
+"name_fi": "Evijärvi",
+"name_sv": "Evijärvi"
+}
+]
+},
+{
+"url": "https://finavia.inschool.fi",
+"name": "Finavia Oyj, HR, Vantaa",
+"municipalities": [
+{
+"name_fi": "Vantaa",
+"name_sv": "Vanda"
+}
+]
+},
+{
+"url": "https://fintraffic.inschool.fi",
+"name": "Fintraffic Lennonvarmistus Oy",
+"formerUrl": "https://ansfinland.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Vantaa",
+"name_sv": "Vanda"
+}
+]
+},
+{
+"url": "https://fai.inschool.fi",
+"name": "Forssan ammatti-instituutti, Forssa",
+"municipalities": [
+{
+"name_fi": "Forssa",
+"name_sv": "Forssa"
+}
+]
+},
+{
+"url": "https://forssa.inschool.fi",
+"name": "Forssan sivistysvirasto",
+"municipalities": [
+{
+"name_fi": "Forssa",
+"name_sv": "Forssa"
+}
+]
+},
+{
+"url": "https://haapajarvi.inschool.fi",
+"name": "Haapajärven koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Haapajärvi",
+"name_sv": "Haapajärvi"
+}
+]
+},
+{
+"url": "https://haapavesi.inschool.fi",
+"name": "Haapaveden kaupunki, Sivistystoimisto",
+"formerUrl": "https://wilma.haapavesi.fi",
+"municipalities": [
+{
+"name_fi": "Haapavesi",
+"name_sv": "Haapavesi"
+}
+]
+},
+{
+"url": "https://haapop.inschool.fi",
+"name": "Haapaveden Opisto",
+"municipalities": [
+{
+"name_fi": "Haapavesi",
+"name_sv": "Haapavesi"
+}
+]
+},
+{
+"url": "https://hailuoto.inschool.fi",
+"name": "Hailuodon peruskoulu, Hailuoto",
+"municipalities": [
+{
+"name_fi": "Hailuoto",
+"name_sv": "Karlö"
+}
+]
+},
+{
+"url": "https://halsua.inschool.fi",
+"name": "Halsuan yhtenäiskoulu",
+"municipalities": [
+{
+"name_fi": "Halsua",
+"name_sv": "Halsua"
+}
+]
+},
+{
+"url": "https://hamina.inschool.fi",
+"name": "Haminan sivistystoimi, Hamina",
+"municipalities": [
+{
+"name_fi": "Hamina",
+"name_sv": "Fredrikshamn"
+}
+]
+},
+{
+"url": "https://hanko.inschool.fi",
+"name": "Hangon koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Hanko",
+"name_sv": "Hangö"
+}
+]
+},
+{
+"url": "https://hankasalmi.inschool.fi",
+"name": "Hankasalmen peruskoulut",
+"formerUrl": "https://wilma.hankasalmi.fi",
+"municipalities": [
+{
+"name_fi": "Hankasalmi",
+"name_sv": "Hankasalmi"
+}
+]
+},
+{
+"url": "https://harjavalta.inschool.fi",
+"name": "Harjavallan sivistysvirasto",
+"municipalities": [
+{
+"name_fi": "Harjavalta",
+"name_sv": "Harjavalta"
+}
+]
+},
+{
+"url": "https://harjunopk.inschool.fi",
+"name": "Harjun Oppimiskeskus, Virolahti",
+"formerUrl": "https://wilma.harjunopk.fi",
+"municipalities": [
+{
+"name_fi": "Virolahti",
+"name_sv": "Virolahti"
+}
+]
+},
+{
+"url": "https://hartola.inschool.fi",
+"name": "Hartolan yhtenäiskoulu (0-10)",
+"municipalities": [
+{
+"name_fi": "Hartola",
+"name_sv": "Hartola"
+}
+]
+},
+{
+"url": "https://hattula.inschool.fi",
+"name": "Hattulan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Hattula",
+"name_sv": "Hattula"
+}
+]
+},
+{
+"url": "https://hausjarvi.inschool.fi",
+"name": "Hausjärven koulutoimisto",
+"formerUrl": "https://wilma.hausjarvi.fi",
+"municipalities": [
+{
+"name_fi": "Hausjärvi",
+"name_sv": "Hausjärvi"
+}
+]
+},
+{
+"url": "https://heinola.inschool.fi",
+"name": "Heinolan kaupunki, Opetus- ja koulutuspalvelut, Heinola",
+"formerUrl": "https://wilma.heinola.fi",
+"municipalities": [
+{
+"name_fi": "Heinola",
+"name_sv": "Heinola"
+}
+]
+},
+{
+"url": "https://heinavesi.inschool.fi",
+"name": "Heinäveden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Heinävesi",
+"name_sv": "Heinävesi"
+}
+]
+},
+{
+"url": "https://helao.inschool.fi",
+"name": "Helsingin aikuisopisto",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://helsinki.inschool.fi",
+"name": "Helsingin kaupunki",
+"formerUrl": "https://wilma.edu.hel.fi",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://helsinginkonservatorio.inschool.fi",
+"name": "Helsingin Konservatorio",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://hmak.inschool.fi",
+"name": "Helsingin Maalariammattikoulu, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://rudolfsteinerkoulu.inschool.fi",
+"name": "Helsingin Rudolf Steiner -koulu",
+"formerUrl": "https://wilma.rudolfsteinerkoulu.fi",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://yvkoulut.inschool.fi",
+"name": "Helsingin yksityiset ja valtion koulut",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://hollola.inschool.fi",
+"name": "Hollolan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Hollola",
+"name_sv": "Hollola"
+}
+]
+},
+{
+"url": "https://huittinen.inschool.fi",
+"name": "Huittisten koulutoimisto",
+"formerUrl": "https://wilma.huittinen.fi",
+"municipalities": [
+{
+"name_fi": "Huittinen",
+"name_sv": "Huittinen"
+}
+]
+},
+{
+"url": "https://humppila.inschool.fi",
+"name": "Humppilan yläaste",
+"municipalities": [
+{
+"name_fi": "Humppila",
+"name_sv": "Humppila"
+}
+]
+},
+{
+"url": "https://hyria.inschool.fi",
+"name": "Hyria koulutus Oy",
+"formerUrl": "https://wilma.hyria.fi",
+"municipalities": [
+{
+"name_fi": "Hyvinkää",
+"name_sv": "Hyvinge"
+}
+]
+},
+{
+"url": "https://hyrynsalmi.inschool.fi",
+"name": "Hyrynsalmen koulutoimisto",
+"formerUrl": "https://wilmahyrynsalmi.kainuu.fi",
+"municipalities": [
+{
+"name_fi": "Hyrynsalmi",
+"name_sv": "Hyrynsalmi"
+}
+]
+},
+{
+"url": "https://hyvinkaa.inschool.fi",
+"name": "Hyvinkään sivistystoimen hallinto",
+"formerUrl": "https://wilma.hyvinkaa.fi",
+"municipalities": [
+{
+"name_fi": "Hyvinkää",
+"name_sv": "Hyvinge"
+}
+]
+},
+{
+"url": "https://hameenkyro.inschool.fi",
+"name": "Hämeenkyrön koulutoimisto",
+"formerUrl": "https://hameenkyro.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Hämeenkyrö",
+"name_sv": "Tavastkyro"
+}
+]
+},
+{
+"url": "https://hameenlinna.inschool.fi",
+"name": "Hämeenlinnan kaupunki, Lasten ja nuorten palvelut",
+"formerUrl": "https://wilma.hameenlinna.fi",
+"municipalities": [
+{
+"name_fi": "Hämeenlinna",
+"name_sv": "Tavastehus"
+}
+]
+},
+{
+"url": "https://ha.inschool.fi",
+"name": "Högskolan på Åland, Mariehamn",
+"municipalities": [
+{
+"name_fi": "Maarianhamina",
+"name_sv": "Mariehamn"
+}
+]
+},
+{
+"url": "https://ii.inschool.fi",
+"name": "Iin kunta Opetus ja varhaiskasvatuspalvelut, Ii",
+"formerUrl": "https://wilma.ii.fi",
+"municipalities": [
+{
+"name_fi": "Ii",
+"name_sv": "Ii"
+}
+]
+},
+{
+"url": "https://iisalmi.inschool.fi",
+"name": "Iisalmen sivistyspalvelukeskus",
+"formerUrl": "https://wilma.iisalmi.fi",
+"municipalities": [
+{
+"name_fi": "Iisalmi",
+"name_sv": "Idensalmi"
+}
+]
+},
+{
+"url": "https://iitti.inschool.fi",
+"name": "Iitin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Iitti",
+"name_sv": "Iitti"
+}
+]
+},
+{
+"url": "https://ikaalinen.inschool.fi",
+"name": "Ikaalisten koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Ikaalinen",
+"name_sv": "Ikalis"
+}
+]
+},
+{
+"url": "https://ilmajoki.inschool.fi",
+"name": "Ilmajoen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Ilmajoki",
+"name_sv": "Ilmajoki"
+}
+]
+},
+{
+"url": "https://ilomantsi.inschool.fi",
+"name": "Ilomantsin koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8234",
+"municipalities": [
+{
+"name_fi": "Ilomantsi",
+"name_sv": "Ilomants"
+}
+]
+},
+{
+"url": "https://imatra.inschool.fi",
+"name": "Imatran kaupunki, Opetuspalvelut",
+"formerUrl": "https://wilma.imatra.fi",
+"municipalities": [
+{
+"name_fi": "Imatra",
+"name_sv": "Imatra"
+}
+]
+},
+{
+"url": "https://inari.inschool.fi",
+"name": "Inarin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Inari",
+"name_sv": "Enare"
+}
+]
+},
+{
+"url": "https://ingmanedu.inschool.fi",
+"name": "Ingmanedu Kulttuurialan ammattiopisto, Siilinjärvi",
+"municipalities": [
+{
+"name_fi": "Siilinjärvi",
+"name_sv": "Siilinjärvi"
+}
+]
+},
+{
+"url": "https://isokirja.inschool.fi",
+"name": "Iso Kirja -opisto, Keuruu",
+"municipalities": [
+{
+"name_fi": "Keuruu",
+"name_sv": "Keuruu"
+}
+]
+},
+{
+"url": "https://isojoki.inschool.fi",
+"name": "Isojoen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Isojoki",
+"name_sv": "Storå"
+}
+]
+},
+{
+"url": "https://isokyro.inschool.fi",
+"name": "Isonkyrön koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Isokyrö",
+"name_sv": "Storkyro"
+}
+]
+},
+{
+"url": "https://ihop.inschool.fi",
+"name": "Itä-Hämeen opisto, Hartola",
+"municipalities": [
+{
+"name_fi": "Hartola",
+"name_sv": "Hartola"
+}
+]
+},
+{
+"url": "https://itasuomenkoulu.inschool.fi",
+"name": "Itä-Suomen koulu",
+"formerUrl": "https://wilma.itasuomenkoulu.fi",
+"municipalities": [
+{
+"name_fi": "Lappeenranta",
+"name_sv": "Villmanstrand"
+}
+]
+},
+{
+"url": "https://islo.inschool.fi",
+"name": "Itä-Suomen Liikuntaopisto, Joensuu",
+"formerUrl": "https:",
+"municipalities": [
+{
+"name_fi": "Joensuu",
+"name_sv": "Joensuu"
+}
+]
+},
+{
+"url": "https://janakkala.inschool.fi",
+"name": "Janakkalan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Janakkala",
+"name_sv": "Janakkala"
+}
+]
+},
+{
+"url": "https://joensuu.inschool.fi",
+"name": "Joensuun kaupunki, hyvinvointipalvelut, kasvatus ja opetus",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8242",
+"municipalities": [
+{
+"name_fi": "Joensuu",
+"name_sv": "Joensuu"
+}
+]
+},
+{
+"url": "https://joensuunkonservatorio.inschool.fi",
+"name": "Joensuun konservatorio",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8243",
+"municipalities": [
+{
+"name_fi": "Joensuu",
+"name_sv": "Joensuu"
+}
+]
+},
+{
+"url": "https://jnssteiner.inschool.fi",
+"name": "Joensuun steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Joensuu",
+"name_sv": "Joensuu"
+}
+]
+},
+{
+"url": "https://jokioinen.inschool.fi",
+"name": "Jokioisten koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Jokioinen",
+"name_sv": "Jockis"
+}
+]
+},
+{
+"url": "https://joroinen.inschool.fi",
+"name": "Joroisten koulutoimisto",
+"formerUrl": "https://wilma.joroinen.fi",
+"municipalities": [
+{
+"name_fi": "Joroinen",
+"name_sv": "Jorois"
+}
+]
+},
+{
+"url": "https://joutsa.inschool.fi",
+"name": "Joutsan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Joutsa",
+"name_sv": "Joutsa"
+}
+]
+},
+{
+"url": "https://juuka.inschool.fi",
+"name": "Juuan kunta / Sivistysosasto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8231",
+"municipalities": [
+{
+"name_fi": "Juuka",
+"name_sv": "Juuka"
+}
+]
+},
+{
+"url": "https://juupajoki.inschool.fi",
+"name": "Juupajoen kunnan sivistystoimi, Juupajoki",
+"municipalities": [
+{
+"name_fi": "Juupajoki",
+"name_sv": "Juupajoki"
+}
+]
+},
+{
+"url": "https://juva.inschool.fi",
+"name": "Juvan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Juva",
+"name_sv": "Juva"
+}
+]
+},
+{
+"url": "https://jyvaskyla.inschool.fi",
+"name": "Jyväskylän kaupungin opetustoimi",
+"formerUrl": "https://wilma.jkl.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://gradia.inschool.fi",
+"name": "Jyväskylän koulutuskuntayhtymä",
+"formerUrl": "https://wilma.gradia.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+},
+{
+"name_fi": "Jämsä",
+"name_sv": "Jämsä"
+}
+]
+},
+{
+"url": "https://kristillinenkoulu.inschool.fi",
+"name": "Jyväskylän kristillinen koulu",
+"formerUrl": "https://wilma.kristillinenkoulu.com",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://jko.inschool.fi",
+"name": "Jyväskylän Kristillinen Opisto",
+"formerUrl": "https://wilma.jko.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://jkl-norssi.inschool.fi",
+"name": "Jyväskylän normaalikoulu",
+"formerUrl": "https://wilma-norssi.jyu.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://jypao.inschool.fi",
+"name": "Jyväskylän palvelualan opisto",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://jklsteinerkoulu.inschool.fi",
+"name": "Jyväskylän steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+}
+]
+},
+{
+"url": "https://jamijarvi.inschool.fi",
+"name": "Jämijärven keskuskoulu",
+"municipalities": [
+{
+"name_fi": "Jämijärvi",
+"name_sv": "Jämijärvi"
+}
+]
+},
+{
+"url": "https://jamsanopisto.inschool.fi",
+"name": "Jämsän Kristillinen Kansanopisto",
+"formerUrl": "https://wilma.jamsanopisto.fi",
+"municipalities": [
+{
+"name_fi": "Jämsä",
+"name_sv": "Jämsä"
+}
+]
+},
+{
+"url": "https://jamsa.inschool.fi",
+"name": "Jämsän sivistyspalvelukeskus",
+"formerUrl": "https://wilma.jamsa.fi",
+"municipalities": [
+{
+"name_fi": "Jämsä",
+"name_sv": "Jämsä"
+}
+]
+},
+{
+"url": "https://jmo.inschool.fi",
+"name": "Jämsänjokilaakson musiikkiopisto",
+"municipalities": [
+{
+"name_fi": "Jämsä",
+"name_sv": "Jämsä"
+}
+]
+},
+{
+"url": "https://jarvenpaa.inschool.fi",
+"name": "Järvenpää",
+"municipalities": [
+{
+"name_fi": "Järvenpää",
+"name_sv": "Träskända"
+}
+]
+},
+{
+"url": "https://jamin.inschool.fi",
+"name": "Järviseudun ammatti-instituutti, Lappajärvi",
+"municipalities": [
+{
+"name_fi": "Lappajärvi",
+"name_sv": "Lappajärvi"
+}
+]
+},
+{
+"url": "https://kaarina.inschool.fi",
+"name": "Kaarinan kaupunki / Koulutoimi",
+"municipalities": [
+{
+"name_fi": "Kaarina",
+"name_sv": "S:t karins"
+}
+]
+},
+{
+"url": "https://kaavi.inschool.fi",
+"name": "Kaavin koulu",
+"municipalities": [
+{
+"name_fi": "Kaavi",
+"name_sv": "Kaavi"
+}
+]
+},
+{
+"url": "https://kainuunopisto.inschool.fi",
+"name": "Kainuun Opisto Oy, Mieslahti",
+"municipalities": [
+{
+"name_fi": "Paltamo",
+"name_sv": "Paltamo"
+}
+]
+},
+{
+"url": "https://kajaaninkll.inschool.fi",
+"name": "Kajaanin koulutusliikelaitos",
+"municipalities": [
+{
+"name_fi": "Kajaani",
+"name_sv": "Kajana"
+}
+]
+},
+{
+"url": "https://kajaani.inschool.fi",
+"name": "Kajaanin perusopetus",
+"municipalities": [
+{
+"name_fi": "Kajaani",
+"name_sv": "Kajana"
+},
+{
+"name_fi": "Kuusamo",
+"name_sv": "Kuusamo"
+}
+]
+},
+{
+"url": "https://kalajoki.inschool.fi",
+"name": "Kalajoen koulutoimisto",
+"formerUrl": "https://wilma.kalajoki.fi",
+"municipalities": [
+{
+"name_fi": "Kalajoki",
+"name_sv": "Kalajoki"
+}
+]
+},
+{
+"url": "https://kkro.inschool.fi",
+"name": "Kalajoen Kristillinen Opisto / perusoppijakso",
+"formerUrl": "https://wilma.kkro.fi",
+"municipalities": [
+{
+"name_fi": "Kalajoki",
+"name_sv": "Kalajoki"
+}
+]
+},
+{
+"url": "https://kalevanlukio.inschool.fi",
+"name": "Kalevan lukio, Tampere",
+"formerUrl": "https://wilma.kalevanlukio.fi",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://kangasala.inschool.fi",
+"name": "Kangasalan koulutoimisto",
+"formerUrl": "https://kangasala.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Kangasala",
+"name_sv": "Kangasala"
+}
+]
+},
+{
+"url": "https://kangasniemi.inschool.fi",
+"name": "Kangasniemen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kangasniemi",
+"name_sv": "Kangasniemi"
+}
+]
+},
+{
+"url": "https://kankaanpaa.inschool.fi",
+"name": "Kankaanpään koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Honkajoki",
+"name_sv": "Honkajoki"
+},
+{
+"name_fi": "Kankaanpää",
+"name_sv": "Kankaanpää"
+}
+]
+},
+{
+"url": "https://kankaanpaanopisto.inschool.fi",
+"name": "Kankaanpään opisto",
+"municipalities": [
+{
+"name_fi": "Kankaanpää",
+"name_sv": "Kankaanpää"
+}
+]
+},
+{
+"url": "https://kannelopisto.inschool.fi",
+"name": "Kanneljärven opisto, Lohja",
+"municipalities": [
+{
+"name_fi": "Lohja",
+"name_sv": "Lojo"
+}
+]
+},
+{
+"url": "https://kannonkoski.inschool.fi",
+"name": "Kannonkosken koulu (0-9)",
+"formerUrl": "https://wilma.kannonkoski.fi",
+"municipalities": [
+{
+"name_fi": "Kannonkoski",
+"name_sv": "Kannonkoski"
+}
+]
+},
+{
+"url": "https://kannus.inschool.fi",
+"name": "Kannuksen koulutoimisto",
+"formerUrl": "https://wilma.kannus.fi",
+"municipalities": [
+{
+"name_fi": "Kannus",
+"name_sv": "Kannus"
+}
+]
+},
+{
+"url": "https://karkkila.inschool.fi",
+"name": "Karkkilan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Karkkila",
+"name_sv": "Högfors"
+}
+]
+},
+{
+"url": "https://keokarkku.inschool.fi",
+"name": "Karkun evankelinen opisto/peruskoulu- ja lukiolinja, Sastamala",
+"municipalities": [
+{
+"name_fi": "Sastamala",
+"name_sv": "Sastamala"
+}
+]
+},
+{
+"url": "https://keokarstula.inschool.fi",
+"name": "Karstulan evankelinen opisto",
+"municipalities": [
+{
+"name_fi": "Karstula",
+"name_sv": "Karstula"
+}
+]
+},
+{
+"url": "https://karstulakyyjarvi.inschool.fi",
+"name": "Karstulan/Kyyjärven esi- ja perusopetus sekä lukiokoulutus",
+"municipalities": [
+{
+"name_fi": "Karstula",
+"name_sv": "Karstula"
+},
+{
+"name_fi": "Kyyjärvi",
+"name_sv": "Kyyjärvi"
+}
+]
+},
+{
+"url": "https://karvia.inschool.fi",
+"name": "Karvian yhtenäiskoulu",
+"municipalities": [
+{
+"name_fi": "Karvia",
+"name_sv": "Karvia"
+}
+]
+},
+{
+"url": "https://kaskinen.inschool.fi",
+"name": "Kaskisten koulu",
+"formerUrl": "https://wilma.kaskinen.fi",
+"municipalities": [
+{
+"name_fi": "Kaskinen",
+"name_sv": "Kaskö"
+}
+]
+},
+{
+"url": "https://kauhajoki.inschool.fi",
+"name": "Kauhajoen kaupunki, kasvatuksen ja opetuksen toimiala",
+"formerUrl": "https://wilma.kauhajoki.fi",
+"municipalities": [
+{
+"name_fi": "Kauhajoki",
+"name_sv": "Kauhajoki"
+}
+]
+},
+{
+"url": "https://kauhava.inschool.fi",
+"name": "Kauhavan koulutoimisto",
+"formerUrl": "https://wilmasr.kauhava.fi:8448",
+"municipalities": [
+{
+"name_fi": "Kauhava",
+"name_sv": "Kauhava"
+}
+]
+},
+{
+"url": "https://kauniainen.inschool.fi",
+"name": "Kauniaisten koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kauniainen",
+"name_sv": "Grankulla"
+}
+]
+},
+{
+"url": "https://kaustinen.inschool.fi",
+"name": "Kaustisen perusopetus ja lukiokoulutus",
+"formerUrl": "https://wilma.kaustinen.fi",
+"municipalities": [
+{
+"name_fi": "Kaustinen",
+"name_sv": "Kaustby"
+}
+]
+},
+{
+"url": "https://keitele.inschool.fi",
+"name": "Keiteleen sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Keitele",
+"name_sv": "Keitele"
+}
+]
+},
+{
+"url": "https://kelloseppakoulu.inschool.fi",
+"name": "Kelloseppäkoulu, Espoo",
+"municipalities": [
+{
+"name_fi": "Espoo",
+"name_sv": "Esbo"
+}
+]
+},
+{
+"url": "https://kemijarvi.inschool.fi",
+"name": "Kemijärven koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kemijärvi",
+"name_sv": "Kemijärvi"
+}
+]
+},
+{
+"url": "https://kemi.inschool.fi",
+"name": "Kemin koulutusvirasto",
+"municipalities": [
+{
+"name_fi": "Kemi",
+"name_sv": "Kemi"
+}
+]
+},
+{
+"url": "https://keminmaa.inschool.fi",
+"name": "Keminmaan koulutoimisto",
+"formerUrl": "https://wilma.keminmaa.fi",
+"municipalities": [
+{
+"name_fi": "Keminmaa",
+"name_sv": "Keminmaa"
+}
+]
+},
+{
+"url": "https://kempele.inschool.fi",
+"name": "Kempeleen koulutoimisto",
+"formerUrl": "https://wilma.kempele.fi",
+"municipalities": [
+{
+"name_fi": "Kempele",
+"name_sv": "Kempele"
+}
+]
+},
+{
+"url": "https://kerava.inschool.fi",
+"name": "Keravan Kasvatus- ja opetustoimi",
+"formerUrl": "https://wilma.edu.kerava.fi",
+"municipalities": [
+{
+"name_fi": "Kerava",
+"name_sv": "Kervo"
+}
+]
+},
+{
+"url": "https://kpedu.inschool.fi",
+"name": "Keski-Pohjanmaan koulutusyhtymä",
+"formerUrl": "https://wilma.kpedu.fi",
+"municipalities": [
+{
+"name_fi": "Kokkola",
+"name_sv": "Karleby"
+}
+]
+},
+{
+"url": "https://keukriko.inschool.fi",
+"name": "Keski-Uudenmaan kristillinen koulu, Järvenpää",
+"formerUrl": "https://wilma.kristillinenkoulu.net",
+"municipalities": [
+{
+"name_fi": "Järvenpää",
+"name_sv": "Träskända"
+}
+]
+},
+{
+"url": "https://keuruu.inschool.fi",
+"name": "Keuruun koulutoimisto",
+"formerUrl": "https://wilma.keuruu.fi",
+"municipalities": [
+{
+"name_fi": "Keuruu",
+"name_sv": "Keuruu"
+}
+]
+},
+{
+"url": "https://kihnio.inschool.fi",
+"name": "Kihniön yhtenäiskoulu (0-9)",
+"formerUrl": "https://wilma.kihnio.fi",
+"municipalities": [
+{
+"name_fi": "Kihniö",
+"name_sv": "Kihniö"
+}
+]
+},
+{
+"url": "https://kiipula.inschool.fi",
+"name": "Kiipulan ammattiopisto",
+"formerUrl": "https://wilma.kiipula.fi",
+"municipalities": [
+{
+"name_fi": "Janakkala",
+"name_sv": "Janakkala"
+}
+]
+},
+{
+"url": "https://kiljava.inschool.fi",
+"name": "Kiljavan opisto",
+"municipalities": [
+{
+"name_fi": "Nurmijärvi",
+"name_sv": "Nurmijärvi"
+}
+]
+},
+{
+"url": "https://kimitoon.inschool.fi",
+"name": "Kimito skolkansli",
+"formerUrl": "https://wilma.kimitoon.fi",
+"municipalities": [
+{
+"name_fi": "Kemiönsaari",
+"name_sv": "Kimitoön"
+}
+]
+},
+{
+"url": "https://kinnula.inschool.fi",
+"name": "Kinnulan kunnan perusopetus ja lukiokoulutus",
+"formerUrl": "https://wilma.kinnula.fi",
+"municipalities": [
+{
+"name_fi": "Kinnula",
+"name_sv": "Kinnula"
+}
+]
+},
+{
+"url": "https://kirkkonummi.inschool.fi",
+"name": "Kirkkonummen sivistyspalvelukeskus, Kirkkonummi",
+"municipalities": [
+{
+"name_fi": "Kirkkonummi",
+"name_sv": "Kyrkslätt"
+}
+]
+},
+{
+"url": "https://myrskyla.inschool.fi",
+"name": "Kirkonkylän koulu (1-6), Myrskylä",
+"municipalities": [
+{
+"name_fi": "Myrskylä",
+"name_sv": "Mörskom"
+}
+]
+},
+{
+"url": "https://keko.inschool.fi",
+"name": "Kiteen Evankelinen Kansanopisto",
+"municipalities": [
+{
+"name_fi": "Kitee",
+"name_sv": "Kitee"
+}
+]
+},
+{
+"url": "https://kitee.inschool.fi",
+"name": "Kiteen koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8236",
+"municipalities": [
+{
+"name_fi": "Kitee",
+"name_sv": "Kitee"
+}
+]
+},
+{
+"url": "https://kittila.inschool.fi",
+"name": "Kittilän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kittilä",
+"name_sv": "Kittilä"
+}
+]
+},
+{
+"url": "https://kiuruvesi.inschool.fi",
+"name": "Kiuruveden koulutoimisto",
+"formerUrl": "https://wilma.kiuruvesi.fi",
+"municipalities": [
+{
+"name_fi": "Kiuruvesi",
+"name_sv": "Kiuruvesi"
+}
+]
+},
+{
+"url": "https://merijarvi.inschool.fi",
+"name": "Koivupuhdon koulu, Merijärvi",
+"municipalities": [
+{
+"name_fi": "Merijärvi",
+"name_sv": "Merijärvi"
+}
+]
+},
+{
+"url": "https://kokemaki.inschool.fi",
+"name": "Kokemäen koulutoimisto",
+"formerUrl": "https://wilma.kokemaki.fi",
+"municipalities": [
+{
+"name_fi": "Kokemäki",
+"name_sv": "Kumo"
+}
+]
+},
+{
+"url": "https://kokkola.inschool.fi",
+"name": "Kokkolan sivistyskeskus",
+"municipalities": [
+{
+"name_fi": "Kokkola",
+"name_sv": "Karleby"
+}
+]
+},
+{
+"url": "https://kolari.inschool.fi",
+"name": "Kolarin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kolari",
+"name_sv": "Kolari"
+}
+]
+},
+{
+"url": "https://urheiluopisto3k.inschool.fi",
+"name": "Kolmen kampuksen urheiluopisto, Lahti",
+"formerUrl": "https://kisakallio.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+},
+{
+"name_fi": "Lohja",
+"name_sv": "Lojo"
+}
+]
+},
+{
+"url": "https://konnevesi.inschool.fi",
+"name": "Konneveden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Konnevesi",
+"name_sv": "Konnevesi"
+}
+]
+},
+{
+"url": "https://kontiolahti.inschool.fi",
+"name": "Kontiolahden koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8225",
+"municipalities": [
+{
+"name_fi": "Kontiolahti",
+"name_sv": "Kontiolahti"
+}
+]
+},
+{
+"url": "https://savukoski.inschool.fi",
+"name": "Korvatunturin koulu ja Savukosken lukio",
+"municipalities": [
+{
+"name_fi": "Savukoski",
+"name_sv": "Savukoski"
+}
+]
+},
+{
+"url": "https://koski.inschool.fi",
+"name": "Kosken TI kunta, Koulutoimi",
+"formerUrl": "https://wilma.koski.fi",
+"municipalities": [
+{
+"name_fi": "Koski Tl",
+"name_sv": "Koski Tl"
+}
+]
+},
+{
+"url": "https://kotkasamskola.inschool.fi",
+"name": "Kotka Svenska Samskola",
+"formerUrl": "https://www.kotkasamskola.org",
+"municipalities": [
+{
+"name_fi": "Kotka",
+"name_sv": "Kotka"
+}
+]
+},
+{
+"url": "https://kotka.inschool.fi",
+"name": "Kotkan kaupungin hyvinvointipalvelu / Opetustoimi, Kotka",
+"municipalities": [
+{
+"name_fi": "Kotka",
+"name_sv": "Kotka"
+}
+]
+},
+{
+"url": "https://jedu.inschool.fi",
+"name": "Koulutuskeskus JEDU",
+"formerUrl": "https://wilma.jedu.fi",
+"municipalities": [
+{
+"name_fi": "Oulainen",
+"name_sv": "Oulainen"
+},
+{
+"name_fi": "Ylivieska",
+"name_sv": "Ylivieska"
+},
+{
+"name_fi": "Haapavesi",
+"name_sv": "Haapavesi"
+}
+]
+},
+{
+"url": "https://salpaus.inschool.fi",
+"name": "Koulutuskeskus Salpaus, Lahti",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://tavastia.inschool.fi",
+"name": "Koulutuskuntayhtymä Tavastia",
+"municipalities": [
+{
+"name_fi": "Hämeenlinna",
+"name_sv": "Tavastehus"
+},
+{
+"name_fi": "Hattula",
+"name_sv": "Hattula"
+}
+]
+},
+{
+"url": "https://kouvola.inschool.fi",
+"name": "Kouvolan koulutoimisto",
+"formerUrl": "https://wilma.edukouvola.fi",
+"municipalities": [
+{
+"name_fi": "Kouvola",
+"name_sv": "Kouvola"
+}
+]
+},
+{
+"url": "https://eduko.inschool.fi",
+"name": "Kouvolan Ammattiopisto Oy",
+"formerUrl": "https://ksao.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Kouvola",
+"name_sv": "Kouvola"
+}
+]
+},
+{
+"url": "https://ksak.inschool.fi",
+"name": "KSAK Oy / Koillis-Suomen Aikuiskoulutus",
+"formerUrl": "https://wilma.ksak.fi",
+"municipalities": [
+{
+"name_fi": "Kuusamo",
+"name_sv": "Kuusamo"
+}
+]
+},
+{
+"url": "https://ksl.inschool.fi",
+"name": "KSL-opintokeskus",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://kuhmoinen.inschool.fi",
+"name": "Kuhmoisten sivistystoimisto",
+"formerUrl": "https://wilma.kuhmoinen.fi",
+"municipalities": [
+{
+"name_fi": "Kuhmoinen",
+"name_sv": "Kuhmoinen"
+}
+]
+},
+{
+"url": "https://kuhmo.inschool.fi",
+"name": "Kuhmon kaupungin perusopetus ja lukio",
+"formerUrl": "https://wilmakuhmo.kainuu.fi",
+"municipalities": [
+{
+"name_fi": "Kuhmo",
+"name_sv": "Kuhmo"
+}
+]
+},
+{
+"url": "https://kuopio.inschool.fi",
+"name": "Kuopion kaupunki, kasvun ja oppimisen palvelualue",
+"formerUrl": "https://wilma.kuopio.fi",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://kuopionkonservatorio.inschool.fi",
+"name": "Kuopion konservatorio",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://kukri.inschool.fi",
+"name": "Kuopion kristillinen yhtenäiskoulu (0-9)",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://kuopionsteiner.inschool.fi",
+"name": "Kuopion steinerkoulu Virkkula",
+"formerUrl": "https://wilma.kuopionsteiner.fi",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://kuortane.inschool.fi",
+"name": "Kuortaneen sivistystoimisto",
+"formerUrl": "https://wilma.kuortane.fi",
+"municipalities": [
+{
+"name_fi": "Kuortane",
+"name_sv": "Kuortane"
+}
+]
+},
+{
+"url": "https://kuortaneenuo.inschool.fi",
+"name": "Kuortaneen urheiluopisto",
+"formerUrl": "https://wilma.koulutuskeskus.kuortane.com",
+"municipalities": [
+{
+"name_fi": "Kuortane",
+"name_sv": "Kuortane"
+}
+]
+},
+{
+"url": "https://kurikka.inschool.fi",
+"name": "Kurikan koulutoimisto",
+"formerUrl": "https://wilma.kurikka.fi",
+"municipalities": [
+{
+"name_fi": "Kurikka",
+"name_sv": "Kurikka"
+}
+]
+},
+{
+"url": "https://kuula.inschool.fi",
+"name": "Kuula-opisto / Kuula-institutet",
+"municipalities": [
+{
+"name_fi": "Vaasa",
+"name_sv": "Vasa"
+}
+]
+},
+{
+"url": "https://kuusamo.inschool.fi",
+"name": "Kuusamon koulutoimisto",
+"formerUrl": "https://wilma.kuusamo.fi",
+"municipalities": [
+{
+"name_fi": "Kuusamo",
+"name_sv": "Kuusamo"
+}
+]
+},
+{
+"url": "https://karkola.inschool.fi",
+"name": "Kärkölän sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Kärkölä",
+"name_sv": "Kärkölä"
+}
+]
+},
+{
+"url": "https://karsamaki.inschool.fi",
+"name": "Kärsämäen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Kärsämäki",
+"name_sv": "Kärsämäki"
+}
+]
+},
+{
+"url": "https://laajasalonopisto.inschool.fi",
+"name": "Laajasalon opisto",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://lahdenkansanopisto.inschool.fi",
+"name": "Lahden kansanopisto",
+"formerUrl": "https://wilma.lahdenkansanopisto.fi",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://lahti.inschool.fi",
+"name": "Lahden kaupunki, Perusopetus- ja lukiokoulutuspalvelut",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://concis.inschool.fi",
+"name": "Lahden konservatorio",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://krkoulu.inschool.fi",
+"name": "Lahden kristillinen koulu",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://lahdensteiner.inschool.fi",
+"name": "Lahden Steiner-koulu",
+"municipalities": [
+{
+"name_fi": "Lahti",
+"name_sv": "Lahtis"
+}
+]
+},
+{
+"url": "https://laihia.inschool.fi",
+"name": "Laihian koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Laihia",
+"name_sv": "Laihela"
+}
+]
+},
+{
+"url": "https://laitila.inschool.fi",
+"name": "Laitilan koulutoimisto, Laitila",
+"municipalities": [
+{
+"name_fi": "Laitila",
+"name_sv": "Laitila"
+}
+]
+},
+{
+"url": "https://harjoittelukoulu.inschool.fi",
+"name": "Lapin yliopiston harjoittelukoulu",
+"municipalities": [
+{
+"name_fi": "Rovaniemi",
+"name_sv": "Rovaniemi"
+}
+]
+},
+{
+"url": "https://lapinjarvi.inschool.fi",
+"name": "Lapinjärven koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Lapinjärvi",
+"name_sv": "Lappträsk"
+}
+]
+},
+{
+"url": "https://lapinlahti.inschool.fi",
+"name": "Lapinlahden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Lapinlahti",
+"name_sv": "Lapinlahti"
+}
+]
+},
+{
+"url": "https://lappajarvi.inschool.fi",
+"name": "Lappajärven yhteiskoulu",
+"formerUrl": "https://wilmakeski.lappajarvi.fi:8446",
+"municipalities": [
+{
+"name_fi": "Lappajärvi",
+"name_sv": "Lappajärvi"
+}
+]
+},
+{
+"url": "https://lappeenranta.inschool.fi",
+"name": "Lappeenrannan kouluvirasto",
+"municipalities": [
+{
+"name_fi": "Lappeenranta",
+"name_sv": "Villmanstrand"
+}
+]
+},
+{
+"url": "https://lprsteiner.inschool.fi",
+"name": "Lappeenrannan steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Lappeenranta",
+"name_sv": "Villmanstrand"
+}
+]
+},
+{
+"url": "https://lapua.inschool.fi",
+"name": "Lapuan kaupunki",
+"municipalities": [
+{
+"name_fi": "Lapua",
+"name_sv": "Lappo"
+}
+]
+},
+{
+"url": "https://laukaa.inschool.fi",
+"name": "Laukaan koulutoimisto",
+"formerUrl": "https://wilma.laukaa.fi",
+"municipalities": [
+{
+"name_fi": "Laukaa",
+"name_sv": "Laukaa"
+}
+]
+},
+{
+"url": "https://lemi.inschool.fi",
+"name": "Lemin koulutoimisto",
+"formerUrl": "https://wilma.lemi.fi",
+"municipalities": [
+{
+"name_fi": "Lemi",
+"name_sv": "Lemi"
+}
+]
+},
+{
+"url": "https://lempaala.inschool.fi",
+"name": "Lempäälän sivistystoimisto",
+"formerUrl": "https://lempaala.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Lempäälä",
+"name_sv": "Lempäälä"
+}
+]
+},
+{
+"url": "https://leppavirta.inschool.fi",
+"name": "Leppävirran koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Leppävirta",
+"name_sv": "Leppävirta"
+}
+]
+},
+{
+"url": "https://lestijarvi.inschool.fi",
+"name": "Lestin koulu (1-9), Lestijärvi",
+"municipalities": [
+{
+"name_fi": "Lestijärvi",
+"name_sv": "Lestijärvi"
+}
+]
+},
+{
+"url": "https://lieto.inschool.fi",
+"name": "Liedon koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Lieto",
+"name_sv": "Lundo"
+}
+]
+},
+{
+"url": "https://lieksa.inschool.fi",
+"name": "Lieksan koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8230",
+"municipalities": [
+{
+"name_fi": "Lieksa",
+"name_sv": "Lieksa"
+}
+]
+},
+{
+"url": "https://lkro.inschool.fi",
+"name": "Lieksan kristillinen opisto",
+"municipalities": [
+{
+"name_fi": "Lieksa",
+"name_sv": "Lieksa"
+}
+]
+},
+{
+"url": "https://liminka.inschool.fi",
+"name": "Limingan koulutoimisto",
+"formerUrl": "https://wilma.liminka.fi",
+"municipalities": [
+{
+"name_fi": "Liminka",
+"name_sv": "Limingo"
+}
+]
+},
+{
+"url": "https://liperi.inschool.fi",
+"name": "Liperin koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8226",
+"municipalities": [
+{
+"name_fi": "Liperi",
+"name_sv": "Liperi"
+}
+]
+},
+{
+"url": "https://lohja.inschool.fi",
+"name": "Lohjan kaupunki",
+"municipalities": [
+{
+"name_fi": "Lohja",
+"name_sv": "Lojo"
+}
+]
+},
+{
+"url": "https://leko.inschool.fi",
+"name": "Loimaan evankelinen opisto",
+"municipalities": [
+{
+"name_fi": "Loimaa",
+"name_sv": "Loimaa"
+}
+]
+},
+{
+"url": "https://loimaa.inschool.fi",
+"name": "Loimaan koulutoimisto",
+"formerUrl": "https://wilma.loimaa.fi",
+"municipalities": [
+{
+"name_fi": "Loimaa",
+"name_sv": "Loimaa"
+}
+]
+},
+{
+"url": "https://loppi.inschool.fi",
+"name": "Lopen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Loppi",
+"name_sv": "Loppi"
+}
+]
+},
+{
+"url": "https://novida.inschool.fi",
+"name": "Lounais-Suomen koulutuskuntayhtymä",
+"formerUrl": "https://wilma.novida.fi",
+"municipalities": [
+{
+"name_fi": "Loimaa",
+"name_sv": "Loimaa"
+},
+{
+"name_fi": "Uusikaupunki",
+"name_sv": "Nystad"
+},
+{
+"name_fi": "Lieto",
+"name_sv": "Lundo"
+}
+]
+},
+{
+"url": "https://loviisa.inschool.fi",
+"name": "Loviisan koulutoimisto",
+"formerUrl": "https://wilma.loviisa.fi",
+"municipalities": [
+{
+"name_fi": "Loviisa",
+"name_sv": "Lovisa"
+}
+]
+},
+{
+"url": "https://luhanka.inschool.fi",
+"name": "Luhangan koulu",
+"municipalities": [
+{
+"name_fi": "Luhanka",
+"name_sv": "Luhanka"
+}
+]
+},
+{
+"url": "https://luksia.inschool.fi",
+"name": "Luksia, Länsi-Uudenmaan koulutuskuntayhtymä, Lohja",
+"formerUrl": "https://wilma.luksia.fi",
+"municipalities": [
+{
+"name_fi": "Lohja",
+"name_sv": "Lojo"
+}
+]
+},
+{
+"url": "https://lumijoki.inschool.fi",
+"name": "Lumijoen peruskoulu (0-9)",
+"formerUrl": "https://wilma.lumijoki.fi",
+"municipalities": [
+{
+"name_fi": "Lumijoki",
+"name_sv": "Lumijoki"
+}
+]
+},
+{
+"url": "https://luumaki.inschool.fi",
+"name": "Luumäen sivistystoimisto",
+"formerUrl": "https://wilma.luumaki.fi",
+"municipalities": [
+{
+"name_fi": "Luumäki",
+"name_sv": "Luumäki"
+}
+]
+},
+{
+"url": "https://marttila.inschool.fi",
+"name": "Marttilan koulu",
+"formerUrl": "https://wilma.marttila.fi",
+"municipalities": [
+{
+"name_fi": "Marttila",
+"name_sv": "Marttila"
+}
+]
+},
+{
+"url": "https://masku.inschool.fi",
+"name": "Maskun koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Masku",
+"name_sv": "Masku"
+}
+]
+},
+{
+"url": "https://mercuria.inschool.fi",
+"formerUrl": "https://wilma.mercuria.fi",
+"name": "MERCURIA Kauppiaitten Kauppaoppilaitos, Vantaa",
+"municipalities": [
+{
+"name_fi": "Vantaa",
+"name_sv": "Vanda"
+}
+]
+},
+{
+"url": "https://merikarvia.inschool.fi",
+"name": "Merikarvian sivistystoimi",
+"municipalities": [
+{
+"name_fi": "Merikarvia",
+"name_sv": "Sastmola"
+}
+]
+},
+{
+"url": "https://miehikkala.inschool.fi",
+"name": "Miehikkälän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Miehikkälä",
+"name_sv": "Miehikkälä"
+}
+]
+},
+{
+"url": "https://mikaelskolan.inschool.fi",
+"name": "Mikaelskolan",
+"municipalities": [
+{
+"name_fi": "Raasepori",
+"name_sv": "Raseborg"
+}
+]
+},
+{
+"url": "https://mikkeli.inschool.fi",
+"name": "Mikkelin opetus- ja koulutuspalvelut",
+"formerUrl": "https://wilma.mikkeli.fi",
+"municipalities": [
+{
+"name_fi": "Mikkeli",
+"name_sv": "S:t michel"
+}
+]
+},
+{
+"url": "https://muhos.inschool.fi",
+"name": "Muhoksen koulutoimisto",
+"formerUrl": "https://wilma.muhos.fi",
+"municipalities": [
+{
+"name_fi": "Muhos",
+"name_sv": "Muhos"
+}
+]
+},
+{
+"url": "https://muonio.inschool.fi",
+"name": "Muonion koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Muonio",
+"name_sv": "Muonio"
+}
+]
+},
+{
+"url": "https://muurame.inschool.fi",
+"name": "Muuramen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Muurame",
+"name_sv": "Muurame"
+}
+]
+},
+{
+"url": "https://mynamaki.inschool.fi",
+"name": "Mynämäen koulutoimi",
+"municipalities": [
+{
+"name_fi": "Mynämäki",
+"name_sv": "Mynämäki"
+}
+]
+},
+{
+"url": "https://mantsala.inschool.fi",
+"name": "Mäntsälän koulutoimisto, Mäntsälä",
+"formerUrl": "https://wilma.mantsala.fi",
+"municipalities": [
+{
+"name_fi": "Mäntsälä",
+"name_sv": "Mäntsälä"
+}
+]
+},
+{
+"url": "https://manttavilppula.inschool.fi",
+"name": "Mänttä-Vilppulan koulutoimisto",
+"formerUrl": "https://wilma.manttavilppula.fi",
+"municipalities": [
+{
+"name_fi": "Mänttä-Vilppula",
+"name_sv": "Mänttä-Vilppula"
+}
+]
+},
+{
+"url": "https://mantyharju.inschool.fi",
+"name": "Mäntyharjun koulutoimisto",
+"formerUrl": "https://pertunmaa.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Mäntyharju",
+"name_sv": "Mäntyharju"
+},
+{
+"name_fi": "Pertunmaa",
+"name_sv": "Pertunmaa"
+}
+]
+},
+{
+"url": "https://naantali.inschool.fi",
+"name": "Naantalin sivistystoimisto",
+"formerUrl": "https://wilma.naantali.fi",
+"municipalities": [
+{
+"name_fi": "Naantali",
+"name_sv": "Nådendal"
+}
+]
+},
+{
+"url": "https://nakkila.inschool.fi",
+"name": "Nakkilan koulutoimisto",
+"formerUrl": "https://wilma.nakkila.fi",
+"municipalities": [
+{
+"name_fi": "Nakkila",
+"name_sv": "Nakkila"
+}
+]
+},
+{
+"url": "https://nivala.inschool.fi",
+"name": "Nivalan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Nivala",
+"name_sv": "Nivala"
+}
+]
+},
+{
+"url": "https://nokia.inschool.fi",
+"name": "Nokian kaupungin sivistyspalvelut",
+"formerUrl": "https://nokia.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Nokia",
+"name_sv": "Nokia"
+}
+]
+},
+{
+"url": "https://nousiainen.inschool.fi",
+"name": "Nousiaisten koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Nousiainen",
+"name_sv": "Nousis"
+}
+]
+},
+{
+"url": "https://nuortenystavat.inschool.fi",
+"name": "Nuorten Ystävien koulu ja Pohjolan koulu, Muhos",
+"municipalities": [
+{
+"name_fi": "Muhos",
+"name_sv": "Muhos"
+}
+]
+},
+{
+"url": "https://nurmes.inschool.fi",
+"name": "Nurmeksen perusopetus ja lukiokoulutus",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8235",
+"municipalities": [
+{
+"name_fi": "Nurmes",
+"name_sv": "Nurmes"
+}
+]
+},
+{
+"url": "https://nurmijarvi.inschool.fi",
+"name": "Nurmijärven kunnan koulutuspalvelut, Nurmijärvi",
+"municipalities": [
+{
+"name_fi": "Nurmijärvi",
+"name_sv": "Nurmijärvi"
+}
+]
+},
+{
+"url": "https://narpes.inschool.fi",
+"name": "Närpes stad, bildningskansli",
+"municipalities": [
+{
+"name_fi": "Närpiö",
+"name_sv": "Närpes"
+}
+]
+},
+{
+"url": "https://omnia.inschool.fi",
+"name": "Omnia, Espoo",
+"formerUrl": "https://wilma.omnia.fi",
+"municipalities": [
+{
+"name_fi": "Espoo",
+"name_sv": "Esbo"
+}
+]
+},
+{
+"url": "https://optimaedu.inschool.fi",
+"name": "Optima",
+"formerUrl": "https://wilma.optimaedu.fi",
+"municipalities": [
+{
+"name_fi": "Pietarsaari",
+"name_sv": "Jakobstad"
+}
+]
+},
+{
+"url": "https://orimattila.inschool.fi",
+"name": "Orimattilan sivistyspalvelukeskus",
+"municipalities": [
+{
+"name_fi": "Orimattila",
+"name_sv": "Orimattila"
+}
+]
+},
+{
+"url": "https://oripaa.inschool.fi",
+"name": "Oripään koulu, Oripää",
+"municipalities": [
+{
+"name_fi": "Oripää",
+"name_sv": "Oripää"
+}
+]
+},
+{
+"url": "https://orivesi.inschool.fi",
+"name": "Oriveden koulutoimisto",
+"formerUrl": "https://orivesi.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Orivesi",
+"name_sv": "Orivesi"
+}
+]
+},
+{
+"url": "https://oulainen.inschool.fi",
+"name": "Oulaisten sivistyspalvelukeskus",
+"formerUrl": "https://edu.oulainen.fi",
+"municipalities": [
+{
+"name_fi": "Oulainen",
+"name_sv": "Oulainen"
+}
+]
+},
+{
+"url": "https://oulunkonservatorio.inschool.fi",
+"name": "Oulun konservatorio",
+"formerUrl": "https://wilmakonservatorio.ouka.fi",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://oulunkristillinen.inschool.fi",
+"name": "Oulun kristillinen koulu (0-9)",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+},
+{
+"name_fi": "Rovaniemi",
+"name_sv": "Rovaniemi"
+}
+]
+},
+{
+"url": "https://onk.inschool.fi",
+"name": "Oulun normaalikoulu",
+"formerUrl": "https://wilma.oulu.fi",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://opao.inschool.fi",
+"name": "Oulun Palvelualan Opisto",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://osao.inschool.fi",
+"name": "Koulutuskuntayhtymä OSAO",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+},
+{
+"name_fi": "Haukipudas",
+"name_sv": "Haukipudas"
+},
+{
+"name_fi": "Kempele",
+"name_sv": "Kempele"
+},
+{
+"name_fi": "Liminka",
+"name_sv": "Limingo"
+},
+{
+"name_fi": "Muhos",
+"name_sv": "Muhos"
+},
+{
+"name_fi": "Pudasjärvi",
+"name_sv": "Pudasjärvi"
+},
+{
+"name_fi": "Taivalkoski",
+"name_sv": "Taivalkoski"
+}
+]
+},
+{
+"url": "https://ouka.inschool.fi",
+"name": "Oulun sivistys- ja kulttuuripalvelut",
+"formerUrl": "https://wilma.ouka.fi",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://oulunsteinerkoulu.inschool.fi",
+"name": "Oulun steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://outokumpu.inschool.fi",
+"name": "Outokummun sivistysvirasto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8227",
+"municipalities": [
+{
+"name_fi": "Outokumpu",
+"name_sv": "Outokumpu"
+}
+]
+},
+{
+"url": "https://paasikiviopisto.inschool.fi",
+"name": "Paasikivi-Opisto, Turku",
+"formerUrl": "https://wilma.paasikiviopisto.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://padasjoki.inschool.fi",
+"name": "Padasjoen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Padasjoki",
+"name_sv": "Padasjoki"
+}
+]
+},
+{
+"url": "https://paimio.inschool.fi",
+"name": "Paimion koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Paimio",
+"name_sv": "Pemar"
+},
+{
+"name_fi": "Sauvo",
+"name_sv": "Sagu"
+}
+]
+},
+{
+"url": "https://paltamo.inschool.fi",
+"name": "Paltamon koulutoimisto",
+"formerUrl": "https://wilmapaltamo.kainuu.fi",
+"municipalities": [
+{
+"name_fi": "Paltamo",
+"name_sv": "Paltamo"
+}
+]
+},
+{
+"url": "https://paok.inschool.fi",
+"name": "Palvelualan opisto Kuopio",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://parikkala.inschool.fi",
+"name": "Parikkalan perusopetus ja Parikkalan lukio",
+"municipalities": [
+{
+"name_fi": "Parikkala",
+"name_sv": "Parikkala"
+}
+]
+},
+{
+"url": "https://parkano.inschool.fi",
+"name": "Parkanon koulutoimisto",
+"formerUrl": "https://pnowilma.parkano.fi",
+"municipalities": [
+{
+"name_fi": "Parkano",
+"name_sv": "Parkano"
+}
+]
+},
+{
+"url": "https://pelastusopisto.inschool.fi",
+"name": "Pelastusopisto, Kuopio",
+"formerUrl": "https://wilma.smedu.fi",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://pelkosenniemi.inschool.fi",
+"name": "Pelkosenniemen koulu",
+"formerUrl": "https://wilma.pelkosenniemi.fi",
+"municipalities": [
+{
+"name_fi": "Pelkosenniemi",
+"name_sv": "Pelkosenniemi"
+}
+]
+},
+{
+"url": "https://pello.inschool.fi",
+"name": "Pellon koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Pello",
+"name_sv": "Pello"
+}
+]
+},
+{
+"url": "https://perho.inschool.fi",
+"name": "Perho Liiketalousopisto, Helsinki",
+"formerUrl": "https://wilma.perho.fi",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://stay.inschool.fi",
+"name": "Perhon koulutoimisto",
+"formerUrl": "https://wilma.perho.com",
+"municipalities": [
+{
+"name_fi": "Perho",
+"name_sv": "Perho"
+}
+]
+},
+{
+"url": "https://ppo.inschool.fi",
+"name": "Peräpohjolan Opisto, Tornio",
+"municipalities": [
+{
+"name_fi": "Tornio",
+"name_sv": "Torneå"
+}
+]
+},
+{
+"url": "https://petajavesi.inschool.fi",
+"name": "Petäjäveden koulutoimisto",
+"formerUrl": "https://wilma.petajavesi.fi",
+"municipalities": [
+{
+"name_fi": "Petäjävesi",
+"name_sv": "Petäjävesi"
+}
+]
+},
+{
+"url": "https://pieksamaki.inschool.fi",
+"name": "Pieksämäen koulutoimisto",
+"formerUrl": "https://wilma.pieksamaki.fi",
+"municipalities": [
+{
+"name_fi": "Pieksämäki",
+"name_sv": "Pieksämäki"
+}
+]
+},
+{
+"url": "https://pielavesi.inschool.fi",
+"name": "Pielaveden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Pielavesi",
+"name_sv": "Pielavesi"
+}
+]
+},
+{
+"url": "https://jakobstad.inschool.fi",
+"name": "Pietarsaaren koulutusvirasto",
+"municipalities": [
+{
+"name_fi": "Pietarsaari",
+"name_sv": "Jakobstad"
+}
+]
+},
+{
+"url": "https://pihtipudas.inschool.fi",
+"name": "Pihtiputaan koulutoimisto",
+"formerUrl": "https://wilma.pihtipudas.fi",
+"municipalities": [
+{
+"name_fi": "Pihtipudas",
+"name_sv": "Pihtipudas"
+}
+]
+},
+{
+"url": "https://pirkkala.inschool.fi",
+"name": "Pirkkalan Lasten ja nuorten koulutus",
+"formerUrl": "https://pirkkala.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Pirkkala",
+"name_sv": "Birkala"
+}
+]
+},
+{
+"url": "https://pto.inschool.fi",
+"name": "Pohjantähti-opisto, Kemi",
+"municipalities": [
+{
+"name_fi": "Kemi",
+"name_sv": "Kemi"
+}
+]
+},
+{
+"url": "https://poke.inschool.fi",
+"name": "Pohjoisen Keski-Suomen ammattiopisto",
+"formerUrl": "https://wilma.poke.fi",
+"municipalities": [
+{
+"name_fi": "Äänekoski",
+"name_sv": "Äänekoski"
+}
+]
+},
+{
+"url": "https://riveria.inschool.fi",
+"name": "Pohjois-Karjalan koulutuskuntayhtymä",
+"formerUrl": "https://wilma.pkky.fi",
+"municipalities": [
+{
+"name_fi": "Joensuu",
+"name_sv": "Joensuu"
+}
+]
+},
+{
+"url": "https://psko.inschool.fi",
+"name": "Pohjois-Savon opisto, Kuopio",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+}
+]
+},
+{
+"url": "https://polvijarvi.inschool.fi",
+"name": "Polvijärven koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8232",
+"municipalities": [
+{
+"name_fi": "Polvijärvi",
+"name_sv": "Polvijärvi"
+}
+]
+},
+{
+"url": "https://pomarkku.inschool.fi",
+"name": "Pomarkun koulutoimisto",
+"formerUrl": "https://wilmaya.pomarkku.fi",
+"municipalities": [
+{
+"name_fi": "Pomarkku",
+"name_sv": "Påmark"
+}
+]
+},
+{
+"url": "https://popjazz.inschool.fi",
+"name": "Pop & Jazz Konservatorio, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://pori.inschool.fi",
+"name": "Porin kasvatus- ja opetusvirasto",
+"formerUrl": "https://wilma.pori.fi",
+"municipalities": [
+{
+"name_fi": "Pori",
+"name_sv": "Björneborg"
+}
+]
+},
+{
+"url": "https://pokri.inschool.fi",
+"name": "Porin Kristillinen Koulu",
+"municipalities": [
+{
+"name_fi": "Pori",
+"name_sv": "Björneborg"
+}
+]
+},
+{
+"url": "https://porinsteinerkoulu.inschool.fi",
+"name": "Porin seudun steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Pori",
+"name_sv": "Björneborg"
+}
+]
+},
+{
+"url": "https://pornainen.inschool.fi",
+"name": "Pornaisten koulutoimisto",
+"formerUrl": "https://wilma.pornainen.fi",
+"municipalities": [
+{
+"name_fi": "Pornainen",
+"name_sv": "Borgnäs"
+}
+]
+},
+{
+"url": "https://portaanpaa.inschool.fi",
+"name": "Portaanpään kristillinen opisto",
+"municipalities": [
+{
+"name_fi": "Lapinlahti",
+"name_sv": "Lapinlahti"
+}
+]
+},
+{
+"url": "https://porvoo.inschool.fi",
+"name": "Porvoon kaupunki, Kasvu ja oppiminen / Borgå stad, Växande och lärande",
+"formerUrl": "https://wilma.porvoo.fi",
+"municipalities": [
+{
+"name_fi": "Porvoo",
+"name_sv": "Borgå"
+}
+]
+},
+{
+"url": "https://posio.inschool.fi",
+"name": "Posion peruskoulu (0-9), Posio",
+"municipalities": [
+{
+"name_fi": "Posio",
+"name_sv": "Posio"
+}
+]
+},
+{
+"url": "https://prakticum.inschool.fi",
+"name": "Prakticum",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://pudasjarvi.inschool.fi",
+"name": "Pudasjärven koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Pudasjärvi",
+"name_sv": "Pudasjärvi"
+}
+]
+},
+{
+"url": "https://pukkila.inschool.fi",
+"name": "Pukkilan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Pukkila",
+"name_sv": "Pukkila"
+}
+]
+},
+{
+"url": "https://punkalaidun.inschool.fi",
+"name": "Punkalaitumen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Punkalaidun",
+"name_sv": "Punkalaidun"
+}
+]
+},
+{
+"url": "https://puolanka.inschool.fi",
+"name": "Puolangan sivistystoimi",
+"municipalities": [
+{
+"name_fi": "Puolanka",
+"name_sv": "Puolanka"
+}
+]
+},
+{
+"url": "https://puumala.inschool.fi",
+"name": "Puumalan yhtenäiskoulu (0-9) ja varhaiskasvatus",
+"formerUrl": "https://wilma.puumala.fi",
+"municipalities": [
+{
+"name_fi": "Puumala",
+"name_sv": "Puumala"
+}
+]
+},
+{
+"url": "https://pyhtaa.inschool.fi",
+"name": "Pyhtään koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Pyhtää",
+"name_sv": "Pyttis"
+}
+]
+},
+{
+"url": "https://pyhajoki.inschool.fi",
+"name": "Pyhäjoen koulutoimisto",
+"formerUrl": "https://wilma.pyhajoki.fi",
+"municipalities": [
+{
+"name_fi": "Pyhäjoki",
+"name_sv": "Pyhäjoki"
+}
+]
+},
+{
+"url": "https://pyhajarvi.inschool.fi",
+"name": "Pyhäjärven sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Pyhäjärvi",
+"name_sv": "Pyhäjärvi"
+}
+]
+},
+{
+"url": "https://pyhanta.inschool.fi",
+"name": "Pyhännän koulu",
+"municipalities": [
+{
+"name_fi": "Pyhäntä",
+"name_sv": "Pyhäntä"
+}
+]
+},
+{
+"url": "https://pyharanta.inschool.fi",
+"name": "Pyhärannan koulutoimisto",
+"formerUrl": "https://wilma.pyharanta.fi",
+"municipalities": [
+{
+"name_fi": "Pyhäranta",
+"name_sv": "Pyhäranta"
+}
+]
+},
+{
+"url": "https://palkane.inschool.fi",
+"name": "Pälkäneen koulutoimisto",
+"formerUrl": "https://wilma.palkane.fi",
+"municipalities": [
+{
+"name_fi": "Pälkäne",
+"name_sv": "Pälkäne"
+}
+]
+},
+{
+"url": "https://poytya.inschool.fi",
+"name": "Pöytyän koulutoimisto",
+"formerUrl": "https://wilma.poytya.fi",
+"municipalities": [
+{
+"name_fi": "Pöytyä",
+"name_sv": "Pöytyä"
+}
+]
+},
+{
+"url": "https://raahenedu.inschool.fi",
+"name": "Raahen koulutuskuntayhtymä",
+"municipalities": [
+{
+"name_fi": "Raahe",
+"name_sv": "Brahestad"
+}
+]
+},
+{
+"url": "https://rpkk.inschool.fi",
+"name": "Raahen Porvari- ja Kauppakoulu",
+"formerUrl": "https://wilma.rpkk.fi",
+"municipalities": [
+{
+"name_fi": "Raahe",
+"name_sv": "Brahestad"
+}
+]
+},
+{
+"url": "https://raahe.inschool.fi",
+"name": "Raahen sivistyspalvelukeskus",
+"municipalities": [
+{
+"name_fi": "Raahe",
+"name_sv": "Brahestad"
+}
+]
+},
+{
+"url": "https://raseko.inschool.fi",
+"name": "Raision seudun koulutuskuntayhtymä/Rasekon ammattiopisto ja Rasekon aikuisopisto Timali",
+"formerUrl": "https://wilma.raseko.fi",
+"municipalities": [
+{
+"name_fi": "Raisio",
+"name_sv": "Reso"
+}
+]
+},
+{
+"url": "https://raisio.inschool.fi",
+"name": "Raision sivistyskeskus",
+"formerUrl": "https://wilma.raisio.fi",
+"municipalities": [
+{
+"name_fi": "Raisio",
+"name_sv": "Reso"
+}
+]
+},
+{
+"url": "https://rantasalmi.inschool.fi",
+"name": "Rantasalmen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Rantasalmi",
+"name_sv": "Rantasalmi"
+}
+]
+},
+{
+"url": "https://ranua.inschool.fi",
+"name": "Ranuan koulutoimisto",
+"formerUrl": "https://wilma.ranua.fi",
+"municipalities": [
+{
+"name_fi": "Ranua",
+"name_sv": "Ranua"
+}
+]
+},
+{
+"url": "https://rakrowilma.inschool.fi",
+"name": "Ranuan kristillinen kansanopisto",
+"municipalities": [
+{
+"name_fi": "Ranua",
+"name_sv": "Ranua"
+}
+]
+},
+{
+"url": "https://rko.inschool.fi",
+"name": "Raudaskylän Kristillinen Opisto, Ylivieska",
+"formerUrl": "https://wilma.rko.fi",
+"municipalities": [
+{
+"name_fi": "Ylivieska",
+"name_sv": "Ylivieska"
+}
+]
+},
+{
+"url": "https://raumanfreinetkoulu.inschool.fi",
+"name": "Rauman freinetkoulu, Rauma",
+"municipalities": [
+{
+"name_fi": "Rauma",
+"name_sv": "Raumo"
+}
+]
+},
+{
+"url": "https://rauma.inschool.fi",
+"name": "Rauman kaupungin sivistystoimiala",
+"formerUrl": "https://wilmapk.rauma.fi",
+"municipalities": [
+{
+"name_fi": "Rauma",
+"name_sv": "Raumo"
+}
+]
+},
+{
+"url": "https://rnkutu.inschool.fi",
+"name": "Rauman normaalikoulu",
+"formerUrl": "https://wilma.rnk.utu.fi",
+"municipalities": [
+{
+"name_fi": "Rauma",
+"name_sv": "Raumo"
+}
+]
+},
+{
+"url": "https://rautalampi.inschool.fi",
+"name": "Rautalammin perusopetus ja lukiokoulutus",
+"municipalities": [
+{
+"name_fi": "Rautalampi",
+"name_sv": "Rautalampi"
+}
+]
+},
+{
+"url": "https://rautavaara.inschool.fi",
+"name": "Rautavaaran koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Rautavaara",
+"name_sv": "Rautavaara"
+}
+]
+},
+{
+"url": "https://rautjarvi.inschool.fi",
+"name": "Rautjärven perusopetus ja lukiokoulutus",
+"formerUrl": "https://wilma.rautjarvi.fi",
+"municipalities": [
+{
+"name_fi": "Rautjärvi",
+"name_sv": "Rautjärvi"
+}
+]
+},
+{
+"url": "https://reisjarvi.inschool.fi",
+"name": "Reisjärven koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Reisjärvi",
+"name_sv": "Reisjärvi"
+}
+]
+},
+{
+"url": "https://rkropisto.inschool.fi",
+"name": "Reisjärven kristillinen opisto",
+"formerUrl": "https://wilma.rkropisto.fi",
+"municipalities": [
+{
+"name_fi": "Reisjärvi",
+"name_sv": "Reisjärvi"
+}
+]
+},
+{
+"url": "https://riihimaki.inschool.fi",
+"name": "Riihimäen kasvatus- ja opetuskeskus/lukio-opetus",
+"formerUrl": "https://wilma.riihimaki.fi",
+"municipalities": [
+{
+"name_fi": "Riihimäki",
+"name_sv": "Riihimäki"
+}
+]
+},
+{
+"url": "https://eduriihimaki.inschool.fi",
+"name": "Riihimäen kasvatus- ja opetuskeskus/perusopetus",
+"municipalities": [
+{
+"name_fi": "Riihimäki",
+"name_sv": "Riihimäki"
+}
+]
+},
+{
+"url": "https://ristijarvi.inschool.fi",
+"name": "Ristijärven keskuskoulu (0-9)",
+"formerUrl": "https://wilmaristijarvi.kainuu.fi",
+"municipalities": [
+{
+"name_fi": "Ristijärvi",
+"name_sv": "Ristijärvi"
+}
+]
+},
+{
+"url": "https://rovala.inschool.fi",
+"name": "Rovala-Opisto, Rovaniemi",
+"municipalities": [
+{
+"name_fi": "Rovaniemi",
+"name_sv": "Rovaniemi"
+}
+]
+},
+{
+"url": "https://rovaniemensteiner.inschool.fi",
+"name": "Rovaniemen Steinerkoulu, Rovaniemi",
+"municipalities": [
+{
+"name_fi": "Rovaniemi",
+"name_sv": "Rovaniemi"
+}
+]
+},
+{
+"url": "https://rovaniemi.inschool.fi",
+"name": "Rovaniemi",
+"formerUrl": "https://wilma.rovaniemi.fi",
+"municipalities": [
+{
+"name_fi": "Rovaniemi",
+"name_sv": "Rovaniemi"
+}
+]
+},
+{
+"url": "https://ruokolahti.inschool.fi",
+"name": "Ruokolahden koulutoimisto",
+"formerUrl": "https://wilma.ruokolahti.fi",
+"municipalities": [
+{
+"name_fi": "Ruokolahti",
+"name_sv": "Ruokolahti"
+}
+]
+},
+{
+"url": "https://ruovesi.inschool.fi",
+"name": "Ruoveden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Ruovesi",
+"name_sv": "Ruovesi"
+}
+]
+},
+{
+"url": "https://rusko.inschool.fi",
+"name": "Ruskon koulutoimisto",
+"formerUrl": "https://wilma.rusko.fi",
+"municipalities": [
+{
+"name_fi": "Rusko",
+"name_sv": "Rusko"
+}
+]
+},
+{
+"url": "https://raakkyla.inschool.fi",
+"name": "Rääkkylän yhtenäiskoulu (0-9)",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8233",
+"municipalities": [
+{
+"name_fi": "Rääkkylä",
+"name_sv": "Rääkkylä"
+}
+]
+},
+{
+"url": "https://sogsakk.inschool.fi",
+"name": "Saamelaisalueen koulutuskeskus, Inari",
+"municipalities": [
+{
+"name_fi": "Inari",
+"name_sv": "Enare"
+}
+]
+},
+{
+"url": "https://saarijarvi.inschool.fi",
+"name": "Saarijärven Sivistyspalvelut, Saarijärvi",
+"municipalities": [
+{
+"name_fi": "Saarijärvi",
+"name_sv": "Saarijärvi"
+}
+]
+},
+{
+"url": "https://pargas.inschool.fi",
+"name": "saaristokaupunki Parainen, sivistysosasto / skärgårdsstaden Pargas, bildningsavdelningen",
+"municipalities": [
+{
+"name_fi": "Parainen",
+"name_sv": "Pargas"
+}
+]
+},
+{
+"url": "https://edusampo.inschool.fi",
+"name": "Saimaan ammattiopisto Sampo",
+"formerUrl": "https://wilma.edusampo.fi",
+"municipalities": [
+{
+"name_fi": "Lappeenranta",
+"name_sv": "Villmanstrand"
+}
+]
+},
+{
+"url": "https://salla.inschool.fi",
+"name": "Sallan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Salla",
+"name_sv": "Salla"
+}
+]
+},
+{
+"url": "https://salo.inschool.fi",
+"name": "Salon kaupunki, Lasten ja nuorten palvelut",
+"formerUrl": "https://wilma.salo.fi",
+"municipalities": [
+{
+"name_fi": "Salo",
+"name_sv": "Salo"
+}
+]
+},
+{
+"url": "https://sskky.inschool.fi",
+"name": "Salon seudun ammattiopisto",
+"formerUrl": "https://wilma.sskky.fi",
+"municipalities": [
+{
+"name_fi": "Salo",
+"name_sv": "Salo"
+}
+]
+},
+{
+"url": "https://samiedu.inschool.fi",
+"name": "SAMIedu",
+"municipalities": [
+{
+"name_fi": "Savonlinna",
+"name_sv": "Nyslott"
+}
+]
+},
+{
+"url": "https://svk.inschool.fi",
+"name": "Sammatin vapaa kyläkoulu",
+"municipalities": [
+{
+"name_fi": "Sammatti",
+"name_sv": "Sammatti"
+}
+]
+},
+{
+"url": "https://sasky.inschool.fi",
+"name": "SASKY",
+"formerUrl": "https://wilma.sasky.fi",
+"municipalities": [
+{
+"name_fi": "Sastamala",
+"name_sv": "Sastamala"
+},
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+},
+{
+"name_fi": "Mänttä-Vilppula",
+"name_sv": "Mänttä-Vilppula"
+},
+{
+"name_fi": "Ikaalinen",
+"name_sv": "Ikalis"
+},
+{
+"name_fi": "Hämeenkyrö",
+"name_sv": "Tavastkyro"
+},
+{
+"name_fi": "Huittinen",
+"name_sv": "Huittinen"
+}
+]
+},
+{
+"url": "https://saskylukio.inschool.fi",
+"name": "SASKY lukiokoulutus",
+"municipalities": [
+{
+"name_fi": "Sastamala",
+"name_sv": "Sastamala"
+}
+]
+},
+{
+"url": "https://sastamala.inschool.fi",
+"name": "Sastamalan kaupunki",
+"formerUrl": "https://wilma.sastamalankaupunki.fi",
+"municipalities": [
+{
+"name_fi": "Sastamala",
+"name_sv": "Sastamala"
+}
+]
+},
+{
+"url": "https://sataedu.inschool.fi",
+"name": "Sataedu",
+"formerUrl": "https://wilma.sataedu.fi",
+"municipalities": [
+{
+"name_fi": "Kokemäki",
+"name_sv": "Kumo"
+},
+{
+"name_fi": "Ulvila",
+"name_sv": "Ulvsby"
+},
+{
+"name_fi": "Nakkila",
+"name_sv": "Nakkila"
+},
+{
+"name_fi": "Kankaanpää",
+"name_sv": "Kankaanpää"
+},
+{
+"name_fi": "Harjavalta",
+"name_sv": "Harjavalta"
+}
+]
+},
+{
+"url": "https://sateenkaarenkoulu.inschool.fi",
+"name": "Sateenkaaren erityiskoulu, Sateenkaaren koulun kuntayhtymä, Pieksämäki",
+"formerUrl": "https://vaalijala.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Pieksämäki",
+"name_sv": "Pieksämäki"
+}
+]
+},
+{
+"url": "https://lauste.inschool.fi",
+"name": "Satulavuoren koulu, Turku",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://sauvo.inschool.fi",
+"name": "Sauvon koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Sauvo",
+"name_sv": "Sagu"
+}
+]
+},
+{
+"url": "https://savitaipale.inschool.fi",
+"name": "Savitaipaleen koulutoimisto",
+"formerUrl": "https://wilma.savitaipale.fi",
+"municipalities": [
+{
+"name_fi": "Savitaipale",
+"name_sv": "Savitaipale"
+}
+]
+},
+{
+"url": "https://sakky.inschool.fi",
+"name": "Savon ammattiopisto ja Varkauden lukio",
+"formerUrl": "https://wilma.sakky.fi",
+"municipalities": [
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+},
+{
+"name_fi": "Varkaus",
+"name_sv": "Varkaus"
+},
+{
+"name_fi": "Siilinjärvi",
+"name_sv": "Siilinjärvi"
+},
+{
+"name_fi": "Iisalmi",
+"name_sv": "Iisalmi"
+}
+]
+},
+{
+"url": "https://sko.inschool.fi",
+"name": "Savonlinnan kansanopisto",
+"municipalities": [
+{
+"name_fi": "Savonlinna",
+"name_sv": "Nyslott"
+}
+]
+},
+{
+"url": "https://savonlinna.inschool.fi",
+"name": "Savonlinnan sivistysvirasto",
+"formerUrl": "https://wilma.savonlinna.fi",
+"municipalities": [
+{
+"name_fi": "Savonlinna",
+"name_sv": "Nyslott"
+}
+]
+},
+{
+"url": "https://sedu.inschool.fi",
+"name": "Sedu",
+"formerUrl": "https://wilma.sedu.fi",
+"municipalities": [
+{
+"name_fi": "Seinäjoki",
+"name_sv": "Seinäjoki"
+}
+]
+},
+{
+"url": "https://seinajoki.inschool.fi",
+"name": "Seinäjoen sivistyskeskus, Seinäjoki",
+"municipalities": [
+{
+"name_fi": "Seinäjoki",
+"name_sv": "Seinäjoki"
+}
+]
+},
+{
+"url": "https://step.inschool.fi",
+"name": "STEP-koulutus",
+"formerUrl": "https://seurakuntaopisto.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Järvenpää",
+"name_sv": "Träskända"
+},
+{
+"name_fi": "Ruokolahti",
+"name_sv": "Ruokolahti"
+},
+{
+"name_fi": "Pieksämäki",
+"name_sv": "Pieksämäki"
+},
+{
+"name_fi": "Lapua",
+"name_sv": "Lappo"
+},
+{
+"name_fi": "Kaustinen",
+"name_sv": "Kaustby"
+}
+]
+},
+{
+"url": "https://sievi.inschool.fi",
+"name": "Sievin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Sievi",
+"name_sv": "Sievi"
+}
+]
+},
+{
+"url": "https://siikainen.inschool.fi",
+"name": "Siikaisten koulutoimisto",
+"formerUrl": "https://wilma.siikainen.fi",
+"municipalities": [
+{
+"name_fi": "Siikainen",
+"name_sv": "Siikainen"
+}
+]
+},
+{
+"url": "https://siikajoki.inschool.fi",
+"name": "Siikajoen koulutoimisto",
+"formerUrl": "https://wilma.siikajoki.fi",
+"municipalities": [
+{
+"name_fi": "Siikajoki",
+"name_sv": "Siikajoki"
+}
+]
+},
+{
+"url": "https://siikalatva.inschool.fi",
+"name": "Siikalatvan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Siikalatva",
+"name_sv": "Siikalatva"
+}
+]
+},
+{
+"url": "https://siilinjarvi.inschool.fi",
+"name": "Siilinjärven koulutoimisto",
+"formerUrl": "https://wilma.siilinjarvi.fi",
+"municipalities": [
+{
+"name_fi": "Siilinjärvi",
+"name_sv": "Siilinjärvi"
+}
+]
+},
+{
+"url": "https://simo.inschool.fi",
+"name": "Simon koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Simo",
+"name_sv": "Simo"
+}
+]
+},
+{
+"url": "https://multia.inschool.fi",
+"name": "Sinervän koulukeskus (0-9), Multia",
+"formerUrl": "https://wilma.multia.fi",
+"municipalities": [
+{
+"name_fi": "Multia",
+"name_sv": "Multia"
+}
+]
+},
+{
+"url": "https://sipoo.inschool.fi",
+"name": "Sipoon koulutoimisto",
+"formerUrl": "https://wilma.sipoo.fi",
+"municipalities": [
+{
+"name_fi": "Sipoo",
+"name_sv": "Sibbo"
+}
+]
+},
+{
+"url": "https://siuntio.inschool.fi",
+"name": "Siuntion koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Siuntio",
+"name_sv": "Sjundeå"
+}
+]
+},
+{
+"url": "https://inga.inschool.fi",
+"name": "Skolkansliet i Ingå",
+"formerUrl": "https://wilma.inga.fi",
+"municipalities": [
+{
+"name_fi": "Inkoo",
+"name_sv": "Ingå"
+}
+]
+},
+{
+"url": "https://korsholm.inschool.fi",
+"name": "Skolkansliet i Korsholm",
+"municipalities": [
+{
+"name_fi": "Mustasaari",
+"name_sv": "Korsholm"
+}
+]
+},
+{
+"url": "https://krs.inschool.fi",
+"name": "Kristinestads skolväsende- Kristiinankaupungin koulutoimi",
+"formerUrl": "https://wilma.krs.fi",
+"municipalities": [
+{
+"name_fi": "Kristiinankaupunki",
+"name_sv": "Kristinestad"
+},
+{
+"name_fi": "Karijoki",
+"name_sv": "Bötom"
+}
+]
+},
+{
+"url": "https://kronoby.inschool.fi",
+"name": "Skolkansliet i Kronoby",
+"municipalities": [
+{
+"name_fi": "Kruunupyy",
+"name_sv": "Kronoby"
+}
+]
+},
+{
+"url": "https://larsmo.inschool.fi",
+"name": "Skolkansliet i Larsmo",
+"municipalities": [
+{
+"name_fi": "Luoto",
+"name_sv": "Larsmo"
+}
+]
+},
+{
+"url": "https://malax.inschool.fi",
+"name": "Skolkansliet i Malax",
+"formerUrl": "https://wilma.malax.fi",
+"municipalities": [
+{
+"name_fi": "Maalahti",
+"name_sv": "Malax"
+}
+]
+},
+{
+"url": "https://korsnas.inschool.fi",
+"name": "Skolkansliet i Korsnäs",
+"formerUrl": "https://wilma.malax.fi",
+"municipalities": [
+{
+"name_fi": "Korsnäs",
+"name_sv": "Korsnäs"
+}
+]
+},
+{
+"url": "https://pedersore.inschool.fi",
+"name": "Skolkansliet i Pedersöre",
+"formerUrl": "https://wilma.pedersore.fi",
+"municipalities": [
+{
+"name_fi": "Pedersören kunta",
+"name_sv": "Pedersöre"
+}
+]
+},
+{
+"url": "https://snellman.inschool.fi",
+"name": "Snellman-korkeakoulu, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://sodankyla.inschool.fi",
+"name": "Sodankylän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Sodankylä",
+"name_sv": "Sodankylä"
+}
+]
+},
+{
+"url": "https://soini.inschool.fi",
+"name": "Soinin yhtenäiskoulu (0-9)",
+"formerUrl": "https://wilma.soini.fi:8444",
+"municipalities": [
+{
+"name_fi": "Soini",
+"name_sv": "Soini"
+}
+]
+},
+{
+"url": "https://somero.inschool.fi",
+"name": "Someron koulutoimisto",
+"formerUrl": "https://wilma.somero.fi",
+"municipalities": [
+{
+"name_fi": "Somero",
+"name_sv": "Somero"
+}
+]
+},
+{
+"url": "https://sonkajarvi.inschool.fi",
+"name": "Sonkajärven koulutoimisto",
+"formerUrl": "https://wilma.sonkajarvi.fi",
+"municipalities": [
+{
+"name_fi": "Sonkajärvi",
+"name_sv": "Sonkajärvi"
+}
+]
+},
+{
+"url": "https://saohel.inschool.fi",
+"name": "Sophie Mannerheimin koulu, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://sorinsirkus.inschool.fi",
+"name": "Sorin Sirkuskoulu, Tampere",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://sotkamo.inschool.fi",
+"name": "Sotkamon koulutoimisto",
+"formerUrl": "https://wilmasotkamo.kainuu.fi",
+"municipalities": [
+{
+"name_fi": "Sotkamo",
+"name_sv": "Sotkamo"
+}
+]
+},
+{
+"url": "https://wilmastadi.inschool.fi",
+"name": "Stadin ammattiopisto",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://sulkava.inschool.fi",
+"name": "Sulkavan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Sulkava",
+"name_sv": "Sulkava"
+}
+]
+},
+{
+"url": "https://sdakoulut.inschool.fi",
+"name": "Suomen Adventtikirkon koulut",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+},
+{
+"name_fi": "Kaarina",
+"name_sv": "S:t karins"
+},
+{
+"name_fi": "Liperi",
+"name_sv": "Liperi"
+},
+{
+"name_fi": "Vihti",
+"name_sv": "Vichtis"
+}
+]
+},
+{
+"url": "https://sdo.inschool.fi",
+"name": "Suomen Diakoniaopisto",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://balettioppilaitos.inschool.fi",
+"name": "Suomen Kansallisoopperan Balettioppilaitos, Helsinki",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://sno.inschool.fi",
+"name": "Suomen Nuoriso-opisto, Mikkeli",
+"municipalities": [
+{
+"name_fi": "Mikkeli",
+"name_sv": "S:t michel"
+}
+]
+},
+{
+"url": "https://vierumaki.inschool.fi",
+"name": "Suomen Urheiluopisto",
+"formerUrl": "https://wilma.vierumaki.fi",
+"municipalities": [
+{
+"name_fi": "Heinola",
+"name_sv": "Heinola"
+}
+]
+},
+{
+"url": "https://sykli.inschool.fi",
+"name": "Suomen ympäristöopisto SYKLI, Riihimäki",
+"municipalities": [
+{
+"name_fi": "Riihimäki",
+"name_sv": "Riihimäki"
+}
+]
+},
+{
+"url": "https://syo.inschool.fi",
+"name": "Suomen Yrittäjäopisto",
+"municipalities": [
+{
+"name_fi": "Kauhava",
+"name_sv": "Kauhava"
+},
+{
+"name_fi": "Seinäjoki",
+"name_sv": "Seinäjoki"
+}
+]
+},
+{
+"url": "https://suomussalmi.inschool.fi",
+"name": "Suomussalmen sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Suomussalmi",
+"name_sv": "Suomussalmi"
+}
+]
+},
+{
+"url": "https://suonenjoki.inschool.fi",
+"name": "Suonenjoen koulutoimisto",
+"formerUrl": "https://wilma.suonenjoki.fi",
+"municipalities": [
+{
+"name_fi": "Suonenjoki",
+"name_sv": "Suonenjoki"
+}
+]
+},
+{
+"url": "https://suupohja.inschool.fi",
+"name": "Suupohjan ammatti-instituutti",
+"municipalities": [
+{
+"name_fi": "Kauhajoki",
+"name_sv": "Kauhajoki"
+}
+]
+},
+{
+"url": "https://spsu.inschool.fi",
+"name": "Svenska Privatskolan i Uleåborg",
+"formerUrl": "https://wilmaspsu.ouka.fi",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://sst.inschool.fi",
+"name": "Svenska samskolan i Tammerfors",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://sysma.inschool.fi",
+"name": "Sysmän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Sysmä",
+"name_sv": "Sysmä"
+}
+]
+},
+{
+"url": "https://sakyla.inschool.fi",
+"name": "Säkylän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Säkylä",
+"name_sv": "Säkylä"
+}
+]
+},
+{
+"url": "https://taikatahti.inschool.fi",
+"name": "Taikatahdin koulu, Oulu",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://kivijarvi.inschool.fi",
+"name": "Tainionmäen koulu (0-9), Kivijärvi",
+"formerUrl": "https://wilma.kivijarvi.fi",
+"municipalities": [
+{
+"name_fi": "Kivijärvi",
+"name_sv": "Kivijärvi"
+}
+]
+},
+{
+"url": "https://taipalsaari.inschool.fi",
+"name": "Taipalsaaren koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Taipalsaari",
+"name_sv": "Taipalsaari"
+}
+]
+},
+{
+"url": "https://napsa.inschool.fi",
+"name": "Taito Pirkanmaa ry Näpsä-käsityökoulu",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://taivalkoski.inschool.fi",
+"name": "Taivalkosken sivistystoimisto",
+"formerUrl": "https://wilma.taivalkoski.fi",
+"municipalities": [
+{
+"name_fi": "Taivalkoski",
+"name_sv": "Taivalkoski"
+}
+]
+},
+{
+"url": "https://taivassalo.inschool.fi",
+"name": "Taivassalon koulutoimisto",
+"formerUrl": "https://wilma.taivassalo.fi",
+"municipalities": [
+{
+"name_fi": "Taivassalo",
+"name_sv": "Tövsala"
+},
+{
+"name_fi": "Kustavi",
+"name_sv": "Gustavs"
+}
+]
+},
+{
+"url": "https://task.inschool.fi",
+"name": "Tallinnan suomalainen koulu, Viro",
+"formerUrl": "https://wilma.suomalainenkoulu.ee",
+"municipalities": [
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://tammela.inschool.fi",
+"name": "Tammelan sivistystoimisto, Tammela",
+"municipalities": [
+{
+"name_fi": "Tammela",
+"name_sv": "Tammela"
+}
+]
+},
+{
+"url": "https://opetustampere.inschool.fi",
+"name": "Tampereen kaupunki, perusopetus",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://konservatorio.inschool.fi",
+"name": "Tampereen konservatorio",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://typa.inschool.fi",
+"name": "Tampereen kuntakokeilu Työllisyydenhoidon palveluyksikkö, TYPA, Tampere",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://tyn.inschool.fi",
+"name": "Tampereen normaalikoulu",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://tampereensteinerkoulu.inschool.fi",
+"name": "Tampereen Rudolf Steiner-koulu",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://edutampere.inschool.fi",
+"name": "Tampereen toisen asteen koulutus",
+"formerUrl": "https://wilma.tampere.fi",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://tyk.inschool.fi",
+"name": "Tampereen yhteiskoulun lukio",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://tanhuvaara.inschool.fi",
+"name": "Tanhuvaaran urheiluopisto",
+"municipalities": [
+{
+"name_fi": "Savonlinna",
+"name_sv": "Nyslott"
+}
+]
+},
+{
+"url": "https://taos.inschool.fi",
+"name": "TAO, Turun Ammattiopisto",
+"formerUrl": "https://wilma.taos.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://tervola.inschool.fi",
+"name": "Tervolan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Tervola",
+"name_sv": "Tervola"
+}
+]
+},
+{
+"url": "https://tervo.inschool.fi",
+"name": "Tervon yhtenäiskoulu (0-9)",
+"municipalities": [
+{
+"name_fi": "Tervo",
+"name_sv": "Tervo"
+}
+]
+},
+{
+"url": "https://teuva.inschool.fi",
+"name": "Teuvan sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Teuva",
+"name_sv": "Östermark"
+}
+]
+},
+{
+"url": "https://tohmajarvi.inschool.fi",
+"name": "Tohmajärven koulutoimisto",
+"formerUrl": "https://wilma.pohjoiskarjala.net:8228",
+"municipalities": [
+{
+"name_fi": "Tohmajärvi",
+"name_sv": "Tohmajärvi"
+}
+]
+},
+{
+"url": "https://toholampi.inschool.fi",
+"name": "Toholammin sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Toholampi",
+"name_sv": "Toholampi"
+}
+]
+},
+{
+"url": "https://toholampivaka.inschool.fi",
+"name": "Toholammin varhaiskasvatus",
+"municipalities": [
+{
+"name_fi": "Toholampi",
+"name_sv": "Toholampi"
+}
+]
+},
+{
+"url": "https://toivakka.inschool.fi",
+"name": "Toivakan koulukeskus (0-9)",
+"formerUrl": "https://wilma.toivakka.fi",
+"municipalities": [
+{
+"name_fi": "Toivakka",
+"name_sv": "Toivakka"
+}
+]
+},
+{
+"url": "https://tornio.inschool.fi",
+"name": "Tornion kouluvirasto",
+"formerUrl": "https://wilma.tornio.fi",
+"municipalities": [
+{
+"name_fi": "Tornio",
+"name_sv": "Torneå"
+}
+]
+},
+{
+"url": "https://tts.inschool.fi",
+"name": "TTS Työtehoseura",
+"formerUrl": "https://wilma.tts.fi",
+"municipalities": [
+{
+"name_fi": "Nurmijärvi",
+"name_sv": "Nurmijärvi"
+}
+]
+},
+{
+"url": "https://turku.inschool.fi",
+"name": "Turun kaupunki",
+"formerUrl": "https://wilma.turku.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://turunkonservatorio.inschool.fi",
+"name": "Turun konservatorio",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://linnas.inschool.fi",
+"name": "Linnasmäen opisto",
+"formerUrl": "https://tk-opisto.inschool.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://tnkutu.inschool.fi",
+"name": "Turun normaalikoulu",
+"formerUrl": "https://wilma.tnk.utu.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://turunsteinerkoulu.inschool.fi",
+"name": "Turun Steiner-koulu",
+"formerUrl": "https://wilma.turunsteinerkoulu.fi",
+"municipalities": [
+{
+"name_fi": "Turku",
+"name_sv": "Åbo"
+}
+]
+},
+{
+"url": "https://tuusniemi.inschool.fi",
+"name": "Tuusniemen koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Tuusniemi",
+"name_sv": "Tuusniemi"
+}
+]
+},
+{
+"url": "https://tuusula.inschool.fi",
+"name": "Tuusulan sivistystoimi",
+"formerUrl": "https://wilma.tuusula.fi",
+"municipalities": [
+{
+"name_fi": "Tuusula",
+"name_sv": "Tusby"
+}
+]
+},
+{
+"url": "https://tyrnava.inschool.fi",
+"name": "Tyrnävän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Tyrnävä",
+"name_sv": "Tyrnävä"
+}
+]
+},
+{
+"url": "https://akatemia.inschool.fi",
+"name": "Työväen Akatemia, Kauniainen",
+"formerUrl": "https://sslwilma.ta-opiskelija.org",
+"municipalities": [
+{
+"name_fi": "Kauniainen",
+"name_sv": "Grankulla"
+}
+]
+},
+{
+"url": "https://ulvila.inschool.fi",
+"name": "Ulvilan koulutoimisto",
+"formerUrl": "https://wilma.ulvila.fi",
+"municipalities": [
+{
+"name_fi": "Ulvila",
+"name_sv": "Ulvsby"
+}
+]
+},
+{
+"url": "https://urjala.inschool.fi",
+"name": "Urjalan sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Urjala",
+"name_sv": "Urjala"
+}
+]
+},
+{
+"url": "https://utajarvi.inschool.fi",
+"name": "Utajärven kunta, sivistyspalvelut",
+"municipalities": [
+{
+"name_fi": "Utajärvi",
+"name_sv": "Utajärvi"
+}
+]
+},
+{
+"url": "https://utsjoki.inschool.fi",
+"name": "Utsjoen sivistystoimisto",
+"municipalities": [
+{
+"name_fi": "Utsjoki",
+"name_sv": "Utsjoki"
+}
+]
+},
+{
+"url": "https://uusikaupunki.inschool.fi",
+"name": "Uudenkaupungin sivistyspalvelukeskus",
+"municipalities": [
+{
+"name_fi": "Uusikaupunki",
+"name_sv": "Nystad"
+}
+]
+},
+{
+"url": "https://uurainen.inschool.fi",
+"name": "Uuraisten koulutoimisto",
+"formerUrl": "https://wilma.uurainen.fi",
+"municipalities": [
+{
+"name_fi": "Uurainen",
+"name_sv": "Uurainen"
+}
+]
+},
+{
+"url": "https://vaala.inschool.fi",
+"name": "Vaalan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Vaala",
+"name_sv": "Vaala"
+}
+]
+},
+{
+"url": "https://vaasa.inschool.fi",
+"name": "Vaasan sivistystoimi",
+"municipalities": [
+{
+"name_fi": "Vaasa",
+"name_sv": "Vasa"
+}
+]
+},
+{
+"url": "https://vaao.inschool.fi",
+"name": "Valkeakosken ammattiopisto",
+"municipalities": [
+{
+"name_fi": "Valkeakoski",
+"name_sv": "Valkeakoski"
+}
+]
+},
+{
+"url": "https://valkeakoski.inschool.fi",
+"name": "Valkeakosken kasvatus- ja opetustoimisto",
+"municipalities": [
+{
+"name_fi": "Valkeakoski",
+"name_sv": "Valkeakoski"
+}
+]
+},
+{
+"url": "https://valkealanopisto.inschool.fi",
+"name": "Valkealan kristillinen kansanopisto, Kouvola",
+"municipalities": [
+{
+"name_fi": "Kouvola",
+"name_sv": "Kouvola"
+}
+]
+},
+{
+"url": "https://valteri.inschool.fi",
+"name": "Valteri-koulu",
+"formerUrl": "https://wilma.valteri.fi",
+"municipalities": [
+{
+"name_fi": "Jyväskylä",
+"name_sv": "Jyväskylä"
+},
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+},
+{
+"name_fi": "Mikkeli",
+"name_sv": "S:t michel"
+},
+{
+"name_fi": "Kuopio",
+"name_sv": "Kuopio"
+},
+{
+"name_fi": "Helsinki",
+"name_sv": "Helsingfors"
+}
+]
+},
+{
+"url": "https://valtionkoulukodit.inschool.fi",
+"name": "Valtion koulukodit",
+"municipalities": [
+{
+"name_fi": "Vihti",
+"name_sv": "Vichtis"
+},
+{
+"name_fi": "Pedersören kunta",
+"name_sv": "Pedersöre"
+},
+{
+"name_fi": "Mikkeli",
+"name_sv": "S:t michel"
+},
+{
+"name_fi": "Liminka",
+"name_sv": "Limingo"
+},
+{
+"name_fi": "Kouvola",
+"name_sv": "Kouvola"
+}
+]
+},
+{
+"url": "https://vantaa.inschool.fi",
+"name": "Vantaan kaupunki",
+"municipalities": [
+{
+"name_fi": "Vantaa",
+"name_sv": "Vanda"
+}
+]
+},
+{
+"url": "https://vantaansteiner.inschool.fi",
+"name": "Vantaan seudun steinerkoulu",
+"municipalities": [
+{
+"name_fi": "Vantaa",
+"name_sv": "Vanda"
+}
+]
+},
+{
+"url": "https://varala.inschool.fi",
+"name": "Varalan Urheiluopisto, Tampere",
+"municipalities": [
+{
+"name_fi": "Tampere",
+"name_sv": "Tammerfors"
+}
+]
+},
+{
+"url": "https://varkaus.inschool.fi",
+"name": "Varkauden kaupungin sivistystoimisto",
+"formerUrl": "https://wilma.varkaus.fi",
+"municipalities": [
+{
+"name_fi": "Varkaus",
+"name_sv": "Varkaus"
+}
+]
+},
+{
+"url": "https://vos.inschool.fi",
+"name": "Vasa övningsskola",
+"formerUrl": "https://wilma.abo.fi",
+"municipalities": [
+{
+"name_fi": "Vaasa",
+"name_sv": "Vasa"
+}
+]
+},
+{
+"url": "https://vehmaa.inschool.fi",
+"name": "Vehmaan koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Vehmaa",
+"name_sv": "Vehmaa"
+}
+]
+},
+{
+"url": "https://vesanto.inschool.fi",
+"name": "Vesannon yhtenäiskoulu ja lukio",
+"municipalities": [
+{
+"name_fi": "Vesanto",
+"name_sv": "Vesanto"
+}
+]
+},
+{
+"url": "https://vesilahti.inschool.fi",
+"name": "Vesilahden koulutoimisto",
+"formerUrl": "https://vesilahti.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Vesilahti",
+"name_sv": "Vesilahti"
+}
+]
+},
+{
+"url": "https://veteli.inschool.fi",
+"name": "Vetelin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Veteli",
+"name_sv": "Vetil"
+}
+]
+},
+{
+"url": "https://vierema.inschool.fi",
+"name": "Vieremän koulutoimisto",
+"formerUrl": "https://wilma.vierema.fi",
+"municipalities": [
+{
+"name_fi": "Vieremä",
+"name_sv": "Vieremä"
+}
+]
+},
+{
+"url": "https://vihti.inschool.fi",
+"name": "Vihdin koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Vihti",
+"name_sv": "Vichtis"
+}
+]
+},
+{
+"url": "https://viitasaari.inschool.fi",
+"name": "Viitasaaren koulutoimisto",
+"formerUrl": "https://wilma.viitasaari.fi",
+"municipalities": [
+{
+"name_fi": "Viitasaari",
+"name_sv": "Viitasaari"
+}
+]
+},
+{
+"url": "https://vimpeli.inschool.fi",
+"name": "Vimpelin lukio",
+"formerUrl": "https://wilma.vimpeli.fi:8443",
+"municipalities": [
+{
+"name_fi": "Vimpeli",
+"name_sv": "Vimpeli"
+}
+]
+},
+{
+"url": "https://virolahti.inschool.fi",
+"name": "Virolahden koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Virolahti",
+"name_sv": "Vederlax"
+}
+]
+},
+{
+"url": "https://virrat.inschool.fi",
+"name": "Virtain koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Virrat",
+"name_sv": "Virdois"
+}
+]
+},
+{
+"url": "https://vuolleopisto.inschool.fi",
+"name": "Vuolle-opisto, Oulu",
+"municipalities": [
+{
+"name_fi": "Oulu",
+"name_sv": "Uleåborg"
+}
+]
+},
+{
+"url": "https://vnf.inschool.fi",
+"name": "Västra Nylands folkhögskola, Raseborg",
+"municipalities": [
+{
+"name_fi": "Raasepori",
+"name_sv": "Raseborg"
+}
+]
+},
+{
+"url": "https://ylitornio.inschool.fi",
+"name": "Ylitornion koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Ylitornio",
+"name_sv": "Övertorneå"
+}
+]
+},
+{
+"url": "https://yykl.inschool.fi",
+"name": "Ylitornion yhteiskoulun lukio",
+"municipalities": [
+{
+"name_fi": "Ylitornio",
+"name_sv": "Övertorneå"
+}
+]
+},
+{
+"url": "https://ylivieska.inschool.fi",
+"name": "Ylivieskan kaupungin kouluosasto",
+"formerUrl": "https://wilma.ylivieska.fi",
+"municipalities": [
+{
+"name_fi": "Ylivieska",
+"name_sv": "Ylivieska"
+}
+]
+},
+{
+"url": "https://ysao.inschool.fi",
+"name": "Ylä-Savon ammattiopisto",
+"formerUrl": "https://wilma.ysao.fi",
+"municipalities": [
+{
+"name_fi": "Iisalmi",
+"name_sv": "Idensalmi"
+},
+{
+"name_fi": "Kiuruvesi",
+"name_sv": "Kiuruvesi"
+}
+]
+},
+{
+"url": "https://ylojarvi.inschool.fi",
+"name": "Ylöjärven koulutoimisto",
+"formerUrl": "https://ylojarvi.wilma.pirnet.fi",
+"municipalities": [
+{
+"name_fi": "Ylöjärvi",
+"name_sv": "Ylöjärvi"
+}
+]
+},
+{
+"url": "https://hevosopisto.inschool.fi",
+"name": "Ypäjän Hevosopisto",
+"municipalities": [
+{
+"name_fi": "Ypäjä",
+"name_sv": "Ypäjä"
+}
+]
+},
+{
+"url": "https://ypaja.inschool.fi",
+"name": "Ypäjän koulutoimisto",
+"municipalities": [
+{
+"name_fi": "Ypäjä",
+"name_sv": "Ypäjä"
+}
+]
+},
+{
+"url": "https://yrkesakademin.inschool.fi",
+"name": "Yrkesakademin i Österbotten",
+"formerUrl": "https://wilma.yrkesakademin.fi",
+"municipalities": [
+{
+"name_fi": "Vaasa",
+"name_sv": "Vasa"
+}
+]
+},
+{
+"url": "https://ahtari.inschool.fi",
+"name": "Ähtärin koulutoimisto",
+"formerUrl": "https://wilma.ahtari.fi",
+"municipalities": [
+{
+"name_fi": "Ähtäri",
+"name_sv": "Etseri"
+}
+]
+},
+{
+"url": "https://aanekoski.inschool.fi",
+"name": "Äänekosken opetustoimisto",
+"formerUrl": "https://wilma.aanekoski.fi",
+"municipalities": [
+{
+"name_fi": "Äänekoski",
+"name_sv": "Äänekoski"
+}
+]
+}
+]
+}

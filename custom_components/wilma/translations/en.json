@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Wilma",
+        "description": "Enter your school's Wilma address and your own Wilma login. Each person should use their own account — this is not shared between users.",
+        "data": {
+          "base_url": "Wilma address (e.g. https://ville.inschool.fi)",
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "mfa": {
+        "title": "Two-factor verification",
+        "description": "Your account has MFA enabled. Enter a one-time code from your authenticator app, or paste the TOTP secret/otpauth:// URI once so future logins authenticate automatically.",
+        "data": {
+          "otp_code": "One-time code (6 digits)",
+          "totp_secret": "TOTP secret or otpauth:// URI (optional, saves for automatic future logins)"
+        }
+      },
+      "students": {
+        "title": "Choose students",
+        "description": "Pick which students to create sensors for. You can change this later from the integration's options.",
+        "data": {
+          "students": "Students"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "invalid_mfa": "Invalid one-time code or TOTP secret.",
+      "mfa_code_required": "Enter a one-time code or a TOTP secret.",
+      "cannot_connect": "Could not reach Wilma at this address.",
+      "no_students": "No students found on this account."
+    },
+    "abort": {
+      "already_configured": "This Wilma account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wilma options",
+        "data": {
+          "students": "Active students",
+          "scan_interval_minutes": "Refresh interval (minutes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "schedule": { "name": "Schedule (today)" },
+      "homework": { "name": "Homework" },
+      "exams": { "name": "Upcoming exams" },
+      "grades": { "name": "Grades" },
+      "attendance": { "name": "Attendance notes" },
+      "messages": { "name": "Messages" },
+      "news": { "name": "News" },
+      "actionable_summary": { "name": "Actionable summary" }
+    }
+  }
+}

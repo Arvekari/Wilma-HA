@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Yhdistä Wilmaan",
+        "description": "Anna koulusi Wilma-osoite ja oma Wilma-tunnuksesi. Jokainen käyttäjä käyttää omaa tiliään — tätä ei jaeta käyttäjien kesken.",
+        "data": {
+          "base_url": "Wilma-osoite (esim. https://ville.inschool.fi)",
+          "username": "Käyttäjätunnus",
+          "password": "Salasana"
+        }
+      },
+      "mfa": {
+        "title": "Kaksivaiheinen tunnistautuminen",
+        "description": "Tililläsi on käytössä MFA. Anna kertakäyttökoodi tunnistautumissovelluksesta, tai liitä TOTP-avain/otpauth://-osoite kerran, jolloin tulevat kirjautumiset onnistuvat automaattisesti.",
+        "data": {
+          "otp_code": "Kertakäyttökoodi (6 numeroa)",
+          "totp_secret": "TOTP-avain tai otpauth://-osoite (valinnainen, tallentaa automaattista kirjautumista varten)"
+        }
+      },
+      "students": {
+        "title": "Valitse oppilaat",
+        "description": "Valitse, kenelle luodaan sensorit. Voit muuttaa valintaa myöhemmin integraation asetuksista.",
+        "data": {
+          "students": "Oppilaat"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Väärä käyttäjätunnus tai salasana.",
+      "invalid_mfa": "Virheellinen kertakäyttökoodi tai TOTP-avain.",
+      "mfa_code_required": "Anna kertakäyttökoodi tai TOTP-avain.",
+      "cannot_connect": "Wilmaan ei saatu yhteyttä tällä osoitteella.",
+      "no_students": "Tililtä ei löytynyt oppilaita."
+    },
+    "abort": {
+      "already_configured": "Tämä Wilma-tili on jo määritetty."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wilma-asetukset",
+        "data": {
+          "students": "Aktiiviset oppilaat",
+          "scan_interval_minutes": "Päivitysväli (minuuttia)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "schedule": { "name": "Lukujärjestys (tänään)" },
+      "homework": { "name": "Läksyt" },
+      "exams": { "name": "Tulevat kokeet" },
+      "grades": { "name": "Arvosanat" },
+      "attendance": { "name": "Merkinnät" },
+      "messages": { "name": "Viestit" },
+      "news": { "name": "Tiedotteet" },
+      "actionable_summary": { "name": "Toimenpiteet" }
+    }
+  }
+}
