@@ -52,7 +52,7 @@ cp -r /tmp/wilma-ha-extracted/custom_components/wilma custom_components/
 
 1. Go to **Settings → Add-ons → Samba share → Start** (install it first if needed).
 2. On your Mac: **Finder → Go → Connect to Server →** `smb://<your-ha-host>` → mount the config share.
-3. Assuming it's mounted and you're `cd`'d into it (adjust the path to wherever you unzipped the package, e.g. `~/Desktop/zip_purku/wilma`):
+3. Assuming it's mounted and you're `cd`'d into it (adjust the path to wherever you unzipped the package, e.g. `~/Desktop/wilma-ha-extracted/wilma`):
 
 ```bash
 # Go to HA's config folder (the mounted Samba share)
@@ -62,7 +62,7 @@ cd /Volumes/config
 mkdir -p custom_components
 
 # Copy the integration folder in
-cp -r ~/Desktop/zip_purku/wilma custom_components/
+cp -r ~/Desktop/wilma-ha-extracted/wilma custom_components/
 ```
 
 ## After any of the above
