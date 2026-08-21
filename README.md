@@ -49,7 +49,7 @@ you already have access to:
 
 ### Option A — File Editor app (works over the internet, no LAN needed)
 
-1. In the HA web UI (e.g. `https://haosinstallation.url`), go to
+1. In the HA web UI (e.g. `https://smarthome.arvekari.fi`), go to
    **Settings → Add-ons → File editor** (install it from the Add-on Store
    first if it's not there) and open its **Web UI**.
 2. If there's no `custom_components` folder at the root, create it.

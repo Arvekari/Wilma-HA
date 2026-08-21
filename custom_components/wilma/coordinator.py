@@ -11,7 +11,6 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
 from .api import AuthenticationError, MfaRequiredError, WilmaApiError, WilmaClient
-from .api.session import WilmaSession
 from .api.totp import generate_totp
 from .const import (
     CONF_BASE_URL,
@@ -26,7 +25,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class WilmaCoordinator(DataUpdateCoordinator[dict[str, Any]]):
-    """One coordinator per config entry: one login, one client session, N students."""
+    """One coordinator per config entry; one isolated login/session per student."""
 
     def __init__(self, hass: HomeAssistant, entry: ConfigEntry) -> None:
         self.entry = entry
@@ -39,10 +38,18 @@ class WilmaCoordinator(DataUpdateCoordinator[dict[str, Any]]):
         )
         minutes = entry.options.get(CONF_SCAN_INTERVAL_MINUTES, DEFAULT_SCAN_INTERVAL_MINUTES)
 
-        # Own cookie-jarred session per config entry — never the shared HA
-        # client session, so different Wilma logins never leak cookies into
-        # each other.
-        self._client_session = aiohttp.ClientSession(cookie_jar=aiohttp.CookieJar())
+        # One aiohttp session PER STUDENT, each with its own cookie jar.
+        #
+        # Wilma's session cookie is account-wide: once one student's login
+        # sets it, a second login attempt on that same cookie jar hits Wilma
+        # already-authenticated and gets an unexpected response (no login
+        # form fields to parse, odd /token behaviour) — this is exactly what
+        # broke accounts with multiple children on one Wilma login (e.g. two
+        # kids on the same inschool.fi tenant). Isolating the cookie jar per
+        # student, like the upstream Node client does per session instance,
+        # keeps every login fully independent even though they share one
+        # account.
+        self._client_sessions: dict[str, aiohttp.ClientSession] = {}
         self._clients: dict[str, WilmaClient] = {}
 
         super().__init__(
@@ -61,16 +68,29 @@ class WilmaCoordinator(DataUpdateCoordinator[dict[str, Any]]):
         client = self._clients.get(student_number)
         if client is not None:
             return client
-        client = await WilmaClient.login(
-            self._client_session,
-            self.base_url,
-            self.username,
-            self.password,
-            student_number=student_number,
-            on_mfa_required=self._mfa_callback if self.totp_secret else None,
-        )
+
+        client_session = aiohttp.ClientSession(cookie_jar=aiohttp.CookieJar())
+        try:
+            client = await WilmaClient.login(
+                client_session,
+                self.base_url,
+                self.username,
+                self.password,
+                student_number=student_number,
+                on_mfa_required=self._mfa_callback if self.totp_secret else None,
+            )
+        except Exception:
+            await client_session.close()
+            raise
+        self._client_sessions[student_number] = client_session
         self._clients[student_number] = client
         return client
+
+    async def _drop_client(self, student_number: str) -> None:
+        self._clients.pop(student_number, None)
+        session = self._client_sessions.pop(student_number, None)
+        if session is not None:
+            await session.close()
 
     async def _async_update_data(self) -> dict[str, Any]:
         result: dict[str, Any] = {}
@@ -83,8 +103,8 @@ class WilmaCoordinator(DataUpdateCoordinator[dict[str, Any]]):
                 messages = await client.list_messages("inbox")
                 news = await client.list_news()
             except (AuthenticationError, MfaRequiredError, WilmaApiError, aiohttp.ClientError) as err:
-                # Drop the cached client so the next refresh re-authenticates from scratch.
-                self._clients.pop(student_number, None)
+                # Drop the cached client/session so the next refresh re-authenticates from scratch.
+                await self._drop_client(student_number)
                 raise UpdateFailed(f"Wilma update failed for {student['name']}: {err}") from err
 
             student_data = {
@@ -101,4 +121,7 @@ class WilmaCoordinator(DataUpdateCoordinator[dict[str, Any]]):
         return result
 
     async def async_close(self) -> None:
-        await self._client_session.close()
+        for session in self._client_sessions.values():
+            await session.close()
+        self._client_sessions.clear()
+        self._clients.clear()

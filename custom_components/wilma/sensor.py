@@ -60,26 +60,49 @@ class WilmaStudentSensorBase(CoordinatorEntity[WilmaCoordinator], SensorEntity):
         return super().available and self._student_number in (self.coordinator.data or {})
 
 
+def _truncate(text: str, limit: int = 250) -> str:
+    # HA sensor states are capped at 255 chars; leave headroom.
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: limit - 1] + "…"
+
+
 class WilmaScheduleSensor(WilmaStudentSensorBase):
+    """State = the current/next lesson today as text; full day in `lessons`."""
+
     _attr_translation_key = "schedule"
     _attr_icon = "mdi:calendar-clock"
 
     def __init__(self, coordinator, entry, student_number) -> None:
         super().__init__(coordinator, entry, student_number, "schedule")
 
-    @property
-    def native_value(self) -> Any:
+    def _todays_lessons(self) -> list[dict[str, Any]]:
         today = datetime.now().strftime("%Y-%m-%d")
         lessons = self._student_data.get("overview", {}).get("schedule", [])
         todays = [lesson for lesson in lessons if lesson["date"] == today]
-        return len(todays)
+        return sorted(todays, key=lambda lesson: lesson.get("start", ""))
+
+    @property
+    def native_value(self) -> Any:
+        now_hm = datetime.now().strftime("%H:%M")
+        todays = self._todays_lessons()
+        if not todays:
+            return "Ei tunteja tänään"
+        # Current or next lesson: first one that hasn't ended yet, else the last one.
+        upcoming = [l for l in todays if l.get("end", "") >= now_hm]
+        lesson = upcoming[0] if upcoming else todays[-1]
+        return _truncate(f"{lesson.get('start', '')}–{lesson.get('end', '')} {lesson.get('subject', '')}")
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"lessons": self._student_data.get("overview", {}).get("schedule", [])}
+        return {
+            "lessons_today": self._todays_lessons(),
+            "lessons": self._student_data.get("overview", {}).get("schedule", []),
+        }
 
 
 class WilmaHomeworkSensor(WilmaStudentSensorBase):
+    """State = the most recent homework entry as text; full list in `items`."""
+
     _attr_translation_key = "homework"
     _attr_icon = "mdi:notebook-edit-outline"
 
@@ -88,14 +111,21 @@ class WilmaHomeworkSensor(WilmaStudentSensorBase):
 
     @property
     def native_value(self) -> Any:
-        return len(self._student_data.get("overview", {}).get("homework", []))
+        items = self._student_data.get("overview", {}).get("homework", [])
+        if not items:
+            return "Ei läksyjä"
+        hw = items[0]  # overview.homework is sorted newest-date-first
+        return _truncate(f"{hw.get('subject', '')}: {hw.get('homework', '')}")
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"items": self._student_data.get("overview", {}).get("homework", [])}
+        items = self._student_data.get("overview", {}).get("homework", [])
+        return {"count": len(items), "items": items}
 
 
 class WilmaExamsSensor(WilmaStudentSensorBase):
+    """State = the next upcoming exam as text; full list in `upcoming_exams`."""
+
     _attr_translation_key = "exams"
     _attr_icon = "mdi:file-document-edit-outline"
 
@@ -105,11 +135,15 @@ class WilmaExamsSensor(WilmaStudentSensorBase):
     @property
     def native_value(self) -> Any:
         exams = self._student_data.get("overview", {}).get("upcoming_exams", [])
-        return exams[0]["date"] if exams else None
+        if not exams:
+            return "Ei tulevia kokeita"
+        exam = exams[0]
+        return _truncate(f"{exam.get('date', '')} {exam.get('subject', '')}: {exam.get('name', '')}")
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"upcoming_exams": self._student_data.get("overview", {}).get("upcoming_exams", [])}
+        exams = self._student_data.get("overview", {}).get("upcoming_exams", [])
+        return {"count": len(exams), "upcoming_exams": exams}
 
 
 class WilmaGradesSensor(WilmaStudentSensorBase):
@@ -130,6 +164,8 @@ class WilmaGradesSensor(WilmaStudentSensorBase):
 
 
 class WilmaAttendanceSensor(WilmaStudentSensorBase):
+    """State = the most recent lesson note as text; full list in `lesson_notes`."""
+
     _attr_translation_key = "attendance"
     _attr_icon = "mdi:account-alert-outline"
 
@@ -138,14 +174,21 @@ class WilmaAttendanceSensor(WilmaStudentSensorBase):
 
     @property
     def native_value(self) -> Any:
-        return len(self._student_data.get("attendance", []))
+        notes = self._student_data.get("attendance", [])
+        if not notes:
+            return "Ei merkintöjä"
+        note = notes[0]
+        return _truncate(f"{note.get('subject', '')}: {note.get('type_label', '')}".strip(": "))
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"lesson_notes": self._student_data.get("attendance", [])}
+        notes = self._student_data.get("attendance", [])
+        return {"count": len(notes), "lesson_notes": notes}
 
 
 class WilmaMessagesSensor(WilmaStudentSensorBase):
+    """State = the most recent message's subject as text; full list in `recent_messages`."""
+
     _attr_translation_key = "messages"
     _attr_icon = "mdi:email-outline"
 
@@ -154,14 +197,20 @@ class WilmaMessagesSensor(WilmaStudentSensorBase):
 
     @property
     def native_value(self) -> Any:
-        return len(self._student_data.get("messages", []))
+        messages = self._student_data.get("messages", [])
+        if not messages:
+            return "Ei viestejä"
+        return _truncate(messages[0].get("subject", ""))
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"recent_messages": self._student_data.get("messages", [])}
+        messages = self._student_data.get("messages", [])
+        return {"count": len(messages), "recent_messages": messages}
 
 
 class WilmaNewsSensor(WilmaStudentSensorBase):
+    """State = the most recent news title as text; full list in `recent_news`."""
+
     _attr_translation_key = "news"
     _attr_icon = "mdi:newspaper-variant-outline"
 
@@ -170,11 +219,15 @@ class WilmaNewsSensor(WilmaStudentSensorBase):
 
     @property
     def native_value(self) -> Any:
-        return len(self._student_data.get("news", []))
+        news = self._student_data.get("news", [])
+        if not news:
+            return "Ei tiedotteita"
+        return _truncate(news[0].get("title", ""))
 
     @property
     def extra_state_attributes(self) -> dict[str, Any]:
-        return {"recent_news": self._student_data.get("news", [])}
+        news = self._student_data.get("news", [])
+        return {"count": len(news), "recent_news": news}
 
 
 class WilmaTriageSensor(WilmaStudentSensorBase):
